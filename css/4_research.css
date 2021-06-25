@@ -12,7 +12,7 @@ header nav :nth-child(4){
 
 .sub4_1{
     width:100%;
-    height:195px;
+    padding:5% 0;
     text-align: center;
     margin:45px auto;
     background-color: white;
@@ -20,7 +20,7 @@ header nav :nth-child(4){
 .sub4_1 h2{
     width:100%;
     text-align: center;
-    padding:70px 0;
+    padding: 0;
 
     font-size: 1.25rem;
     font-weight: bold;
@@ -43,23 +43,23 @@ header nav :nth-child(4){
 }
 
 .sub4_2 .txt4_1{
-    width:40%;
+    width:80%;
     margin:0 auto;
     text-align:center;
 }
 
 .txt4_1 h2{
     font-size:1.25rem;
-    padding-bottom:10px;
+    padding-bottom:5%;
+    text-align:center;
 }
 .txt4_1 b{    
     color: #2f3972;
     font-size: 1rem;
+    text-align: left;
 }
 .sub4_21{
     width:80%;
-    height:420px;
-
     margin:100px auto;
    
     display:flex;
@@ -67,20 +67,17 @@ header nav :nth-child(4){
     align-items: center;
 }
 .sub4_21 figure{
-    width:40%;
-    height:420px;
-    
-    border-radius: 10px;
+  width:46%;
+  text-align: center;
 
 }
 .sub4_21 figure img{
-    width:100%;
-    height:420px;
-    border-radius: 10px;
+    width:100%;  
+    border-radius:0;
 }
 .sub4_21 p{
-    width:55%;
-    line-height: 1.42;
+    width:52%;
+    line-height: 1.7;
     font-size: 0.9rem;
     color:#555;
 
@@ -91,7 +88,7 @@ header nav :nth-child(4){
 .sub4_3{
     margin:45px 0;
     width:100%;
-    height:1676px;
+    padding:10% 0;
     background-color: white;
 }
 .sub4_31{
@@ -129,7 +126,7 @@ header nav :nth-child(4){
 /* .sub4_4 */
 
 .sub4_4{
-    width:60%;
+    width:70%;
     margin:0 auto;
     padding:200px 0;
 }
@@ -150,7 +147,7 @@ header nav :nth-child(4){
 }
 
 .board{
-    width:60%; 
+    width:80%; 
     margin:0 auto; 
     border-collapse:collapse;
 }
@@ -187,7 +184,7 @@ header nav :nth-child(4){
 /* .page */
 .page{
     text-align:center;
-    width:15%;
+    width:250px;
     margin:0 auto;
 }
 .pagination{
@@ -235,4 +232,696 @@ header nav :nth-child(4){
     color:white;
 }
 
+@media (min-width:1025px) and (max-width:1600px){
+    main{
+        margin-top:8vw;
+    }
+
+   .sub4_1{
+        width:100%;
+        padding:5% 0;
+        text-align: center;
+        margin:20px auto;
+        background-color: white;
+    }
+    .sub4_1 h2{
+        width:100%;
+        text-align: center;
+        padding:0;
+    
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    
+    /* .sub4-2 */
+    
+    .sub4_2{padding-bottom:20px; background-color:white;}
+    .sub4_2 ul{
+        width:100%;
+        margin:0 auto;
+    }
+    .sub4_2 li{
+        width:90%;
+        margin:0 auto;
+        padding:5% 0;
+    }
+    .sub4_2 li:nth-child(2){
+        background-color:#f6f7f9;
+    }
+    
+    .sub4_2 .txt4_1{
+        width:80%;
+        margin:0 auto;
+        text-align:center;
+    }
+    
+    .txt4_1 h2{
+        font-size:1.25rem;
+        padding-bottom:5%;
+        text-align:center;
+    }
+    .txt4_1 b{    
+        color: #2f3972;
+        font-size: 1rem;
+        text-align:left;
+    }
+    .sub4_21{
+        width:90%;
+        margin:3% auto;    
+       
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sub4_21 figure{
+      width:46%;
+      text-align: center;
+    }
+    .sub4_21 figure img{
+      
+        border-radius:0;
+        padding:6% 0;
+    }
+    .sub4_21 p{
+        width:52%;
+        line-height: 1.7;
+        font-size: 0.9rem;
+        color:#555;
+     
+    
+    }
+    /* .sub4_3 */
+
+.sub4_3{
+    margin:20px 0;
+    width:100%;
+    padding:5% 0;
+    background-color: white;
+}
+.sub4_31{
+    background-color: #db9232;
+    width:100%;
+    height:55px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.sub4_31 span{
+    width:17%;
+    height:100%;
+    background-color: #2f3972;
+    border:1px solid white;
+}
+
+.sub4_31 a{
+    width:33%;
+    background-color: #2f3972;
+    border:1px solid white;
+    text-align:center;
+    color:white;
+    display:block;
+    padding:10px 0;
+}
+.sub4_31 a:nth-of-type(1){
+    background-color: white;
+    color:#2f3972;
+    font-weight:bold;
+}
+
+
+    /* .sub4_4 */
+
+.sub4_4{
+    width:90%;
+    margin:0 auto;
+    padding:10% 0;
+}
+.sub4_4 h2{
+    display:block;
+    text-align:left;
+    width:100%;
+    margin:0 auto;
+    font-size:1.25rem;
+    color:#2f3972;
+    padding-bottom:5%;
+}
+
+.sub4_4 p{
+    text-align:left;
+    width:100%;
+    margin:0 auto;
+}
+
+.board{
+    width:90%; 
+    margin:0 auto; 
+    border-collapse:collapse;
+}
+
+.board caption{
+    text-align:left;
+    padding:0 0 5% 0px;
+    font-size:1.25rem;
+    color:#2f3972;
+    font-weight:bold;
+}
+.board td{
+    text-align: center;
+    padding:10px;
+    border:1px solid #777;
+    border-width:1px 0 1px;
+    font-size:0.9rem;
+    color:#555;
+}
+.board th{
+    color:#2f3972;
+    text-align: center;
+    padding:20px;
+    border:3px solid #2f3972;
+    border-width:3px 0 1px;
+    background-color:#f6f7f9;
+
+}
+
+.board tbody td:nth-child(2){text-align: left;}
+.board tbody th:nth-child(1){width:60px;}
+.board tbody th:nth-child(1){width:120px;}
+
+/* .page */
+.page{
+    text-align:center;
+    width:250px;
+    margin:0 auto;
+    transform: scale(0.6);
+}
+.pagination{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top:20px;
+    width:100%;
+}
+
+.pagination li a{
+    font-size:1.25rem;
+    display:block;
+    background-color: #fff;
+    width:35px; height:35px;
+    border:1px solid #777;
+    border-radius: 5px;
+    margin:0 auto;    
+}
+
+.pagination li:nth-child(1) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-1.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+.pagination li:nth-child(2) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-2.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+.pagination li:nth-child(6) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-6.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+.pagination li:nth-child(7) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-7.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+
+.pagination li:hover a{
+    background:#2f3972;
+    color:white;
+}
+
+
+}
+@media (min-width:768px) and (max-width:1024px){
+    main{
+        margin-top:11vw;
+    }
+
+   .sub4_1{
+        width:100%;
+        padding:5% 0;
+        text-align: center;
+        margin:20px auto;
+        background-color: white;
+    }
+    .sub4_1 h2{
+        width:100%;
+        text-align: center;
+        padding:0;
+    
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    
+    /* .sub4-2 */
+    
+    .sub4_2{padding-bottom:20px; background-color:white;}
+    .sub4_2 ul{
+        width:100%;
+        margin:0 auto;
+    }
+    .sub4_2 li{
+        width:90%;
+        margin:0 auto;
+        padding:5% 0;
+    }
+    .sub4_2 li:nth-child(2){
+        background-color:#f6f7f9;
+    }
+    
+    .sub4_2 .txt4_1{
+        width:80%;
+        margin:0 auto;
+        text-align:center;
+    }
+    
+    .txt4_1 h2{
+        font-size:1.25rem;
+        padding-bottom:5%;
+        text-align:center;
+    }
+    .txt4_1 b{    
+        color: #2f3972;
+        font-size: 1rem;
+        text-align:left;
+    }
+    .sub4_21{
+        width:90%;
+        margin:3% auto;    
+       
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sub4_21 figure{
+      width:46%;
+      text-align: center;
+    }
+    .sub4_21 figure img{
+      
+        border-radius:0;
+        padding:6% 0;
+    }
+    .sub4_21 p{
+        width:52%;
+        line-height: 1.7;
+        font-size: 0.9rem;
+        color:#555;
+     
+    
+    }
+    /* .sub4_3 */
+
+.sub4_3{
+    margin:20px 0;
+    width:100%;
+    padding:5% 0;
+    background-color: white;
+}
+.sub4_31{
+    background-color: #db9232;
+    width:100%;
+    height:40px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.sub4_31 span{
+    width:17%;
+    height:100%;
+    background-color: #2f3972;
+    border:1px solid white;
+}
+
+.sub4_31 a{
+    width:33%;
+    background-color: #2f3972;
+    border:1px solid white;
+    text-align:center;
+    color:white;
+    display:block;
+    padding:10px 0;
+}
+.sub4_31 a:nth-of-type(1){
+    background-color: white;
+    color:#2f3972;
+    font-weight:bold;
+}
+
+
+    /* .sub4_4 */
+
+.sub4_4{
+    width:90%;
+    margin:0 auto;
+    padding:10% 0;
+}
+.sub4_4 h2{
+    display:block;
+    text-align:left;
+    width:100%;
+    margin:0 auto;
+    font-size:1.25rem;
+    color:#2f3972;
+    padding-bottom:5%;
+}
+
+.sub4_4 p{
+    text-align:left;
+    width:100%;
+    margin:0 auto;
+}
+
+.board{
+    width:90%; 
+    margin:0 auto; 
+    border-collapse:collapse;
+}
+
+.board caption{
+    text-align:left;
+    padding:0 0 5% 0px;
+    font-size:1.25rem;
+    color:#2f3972;
+    font-weight:bold;
+}
+.board td{
+    text-align: center;
+    padding:10px;
+    border:1px solid #777;
+    border-width:1px 0 1px;
+    font-size:0.9rem;
+    color:#555;
+}
+.board th{
+    color:#2f3972;
+    text-align: center;
+    padding:20px;
+    border:3px solid #2f3972;
+    border-width:3px 0 1px;
+    background-color:#f6f7f9;
+
+}
+
+.board tbody td:nth-child(2){text-align: left;}
+.board tbody th:nth-child(1){width:60px;}
+.board tbody th:nth-child(1){width:120px;}
+
+/* .page */
+.page{
+    text-align:center;
+    width:250px;
+    margin:0 auto;
+    transform: scale(0.6);
+}
+.pagination{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top:20px;
+    width:100%;
+}
+
+.pagination li a{
+    font-size:1.25rem;
+    display:block;
+    background-color: #fff;
+    width:35px; height:35px;
+    border:1px solid #777;
+    border-radius: 5px;
+    margin:0 auto;    
+}
+
+.pagination li:nth-child(1) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-1.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+.pagination li:nth-child(2) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-2.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+.pagination li:nth-child(6) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-6.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+.pagination li:nth-child(7) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-7.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+
+.pagination li:hover a{
+    background:#2f3972;
+    color:white;
+}
+
+
+}
+
+@media (min-width:360px) and (max-width:768px){
+    main{
+        margin-top:18vw;
+    }
+
+   .sub4_1{
+        width:100%;
+        padding:10% 0;
+        text-align: center;
+        margin:20px auto;
+        background-color: white;
+    }
+    .sub4_1 h2{
+        width:100%;
+        text-align: center;
+        padding:0;
+    
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    
+    /* .sub4-2 */
+    
+    .sub4_2{padding-bottom:20px; background-color:white;}
+    .sub4_2 ul{
+        width:100%;
+        margin:0 auto;
+    }
+    .sub4_2 li{
+        width:90%;
+        margin:0 auto;
+        padding:10% 0;
+    }
+    .sub4_2 li:nth-child(2){
+        background-color:#f6f7f9;
+    }
+    
+    .sub4_2 .txt4_1{
+        width:90%;
+        margin:0 auto;
+        text-align:left;
+    }
+    
+    .txt4_1 h2{
+        font-size:1.25rem;
+        padding-bottom:5%;
+        text-align:center;
+    }
+    .txt4_1 b{    
+        color: #2f3972;
+        font-size: 1rem;
+        text-align: left;
+         padding-bottom:5%;
+    }
+    .sub4_21{
+        width:90%;
+        margin:3% auto;    
+       
+        display:block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sub4_21 figure{
+      width:80%;
+      margin:0 auto;
+    }
+    .sub4_21 figure img{
+ 
+        border-radius:0;
+        padding:6% 0;
+    }
+    .sub4_21 p{
+        width:100%;
+        line-height: 1.7;
+        font-size: 0.9rem;
+        color:#555;
+     
+    
+    }
+    /* .sub4_3 */
+
+.sub4_3{
+    margin:20px 0;
+    width:100%;
+    padding:10% 0;
+    background-color: white;
+}
+.sub4_31{
+    background-color: #db9232;
+    width:100%;
+    height:40px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.sub4_31 span{
+    width:17%;
+    height:100%;
+    background-color: #2f3972;
+    border:1px solid white;
+}
+
+.sub4_31 a{
+    width:33%;
+    background-color: #2f3972;
+    border:1px solid white;
+    text-align:center;
+    color:white;
+    display:block;
+    padding:10px 0;
+}
+.sub4_31 a:nth-of-type(1){
+    background-color: white;
+    color:#2f3972;
+    font-weight:bold;
+}
+
+
+    /* .sub4_4 */
+
+.sub4_4{
+    width:90%;
+    margin:0 auto;
+    padding:15% 0;
+}
+.sub4_4 h2{
+    display:block;
+    text-align:left;
+    width:100%;
+    margin:0 auto;
+    font-size:1.25rem;
+    color:#2f3972;
+    padding-bottom:5%;
+}
+
+.sub4_4 p{
+    text-align:left;
+    width:100%;
+    margin:0 auto;
+}
+
+.board{
+    width:90%; 
+    margin:0 auto; 
+    border-collapse:collapse;
+}
+
+.board caption{
+    text-align:left;
+    padding:0 0 5% 0px;
+    font-size:1.25rem;
+    color:#2f3972;
+    font-weight:bold;
+}
+.board td{
+    text-align: center;
+    padding:10px;
+    border:1px solid #777;
+    border-width:1px 0 1px;
+    font-size:0.9rem;
+    color:#555;
+}
+.board th{
+    color:#2f3972;
+    text-align: center;
+    padding:20px;
+    border:3px solid #2f3972;
+    border-width:3px 0 1px;
+    background-color:#f6f7f9;
+
+}
+
+.board tbody td:nth-child(2){text-align: left;}
+.board tbody th:nth-child(1){width:60px;}
+.board tbody th:nth-child(1){width:120px;}
+
+/* .page */
+.page{
+    text-align:center;
+    width:250px;
+    margin:0 auto;
+    transform: scale(0.6);
+}
+.pagination{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top:20px;
+    width:100%;
+}
+
+.pagination li a{
+    font-size:1.25rem;
+    display:block;
+    background-color: #fff;
+    width:35px; height:35px;
+    border:1px solid #777;
+    border-radius: 5px;
+    margin:0 auto;    
+}
+
+.pagination li:nth-child(1) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-1.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+.pagination li:nth-child(2) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-2.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+.pagination li:nth-child(6) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-6.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+.pagination li:nth-child(7) a{     
+    font-size:0;
+    background:url(../img/연구센터/btn-7.png) no-repeat center center;
+    background-color: #f6f7f9;
+}
+
+.pagination li:hover a{
+    background:#2f3972;
+    color:white;
+}
+
+
+}
 

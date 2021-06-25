@@ -447,9 +447,9 @@ main{
     }
 
 }
-@media (min-width:768px) and (max-width:1024px){
-    *{font-size:17px;}
-    header{height:9vw;}
+@media (min-width:767px) and (max-width:1024px){
+    *{font-size:16px;}
+    header{height:8vw;}
     header > a{transform:scale(0.65);width:30%;}
     header > nav{width:10%;}
     header > nav> a{margin:0; font-size:0.9rem; font-weight:Medium;display:none;}
@@ -560,7 +560,7 @@ main{
 }
 @media (min-width:481px) and (max-width:767px){
     *{font-size:16px;}
-    header{height:15vw;}
+    header{height:9vw;}
     header > a{transform:scale(0.6);width:5%;}
     header > nav{width:10%;}
     header > nav> a{margin:0; font-size:0.9rem; font-weight:Medium;display:none;}

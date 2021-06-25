@@ -935,7 +935,7 @@ main{margin-top:6vw;}
         font-weight: bold;
     }
 }
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:767px) and (max-width:1024px){
     /* m-1 */
 
 main{margin-top:9vw;}
@@ -1380,13 +1380,14 @@ main{margin-top:9vw;}
 }
 
 .m-4 figure .txt-2{
-    width:80%;
+    width:100%;
     text-align:left;
     color: #ffffff;
     font-size: 0.8rem;
     font-weight: light;
     line-height: 1.5;
     padding-bottom:30px;
+    margin-right:0;
 }
 
 .m-4 figure article a{
@@ -1408,7 +1409,7 @@ main{margin-top:9vw;}
 
 
 }
-@media (min-width:480px) and (max-width:767px){
+@media (min-width:480px) and (max-width:768px){
     main{margin-top:15vw;}
 
     /* m-1 */
@@ -1637,11 +1638,13 @@ main{margin-top:9vw;}
 
     .m-3 ul .m-3_li:hover article{
         display:none;
+        border-radius:10px;
     }
 
     .m-3 ul .m-3_li div article h2{
         position:absolute;
         top:3%; right:8%;
+        border-radius:10px;
        
         font-size: 1.5rem;
         font-weight: bold;
@@ -1913,6 +1916,7 @@ main{margin-top:9vw;}
         position:absolute;
         top:0;
         background:rgba(0,0,0,0.5);
+        border-radius: 10px;
     }
     .m-2 ul li figure{width:100%;}
     .m-2 ul li figcaption div{
@@ -1925,6 +1929,7 @@ main{margin-top:9vw;}
     }
     .m-2 ul li:hover figcaption{
         background:rgba(0,0,0,0.8);
+        border-radius: 10px;
     }
     .m-2 ul li:hover figcaption div{
         top:0;
@@ -2022,7 +2027,7 @@ main{margin-top:9vw;}
     }
 
     .m-3 ul .m-3_li:hover article{
-        display:none;
+        border-radius:10px;
     }
 
     .m-3 ul .m-3_li div article h2{

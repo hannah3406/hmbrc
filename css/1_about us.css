@@ -745,7 +745,7 @@ main{
 }
 }
 
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:767px) and (max-width:1024px){
     /* sub1_1 */
 header nav :nth-child(1){
     color:#2f3972;
