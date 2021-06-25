@@ -12,36 +12,28 @@ header nav :nth-child(3){
 /* .sub3_1 */
 .sub3_1{
     width:100%;
-    padding:0;
-    height:360px;
+    padding:5% 0;
     text-align: center;
-    margin:0 auto;
     background-color: white;
-    position:relative;
 }
 
-.sub3_1 h3{
-    position:absolute;
-    top:16% ; left:43%;
-    transform:translateX(-50%);
-
+.sub3_1 h2 b{
     font-family: HeadlineR-HM;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     text-align: left;
     color: #dddaf0;
     z-index:1;
     padding:0;margin:0;
 
 }
-.sub3_1 div{
-    position:absolute;
-    top:25% ; left:50%;
-    transform:translateX(-50%);
-    z-index:2;
-}
 .sub3_1 h2{
+    white-space:pre;
     font-size:1.5rem;
     padding-bottom:32px;
+}
+.sub3_1 p{
+    width:60%;
+    margin:0 auto;
 }
 
 .sub3_1 b{
@@ -51,15 +43,16 @@ header nav :nth-child(3){
 /* .sub3-2 */
 .sub3_2{
     width:100%;
-    height:800px;
     background-color:white;
     margin:45px auto;
-    padding:5% 20%;
+    padding:5% 0 15% 0;
 
     position:relative;
 }
 
 .sub3_2 .txt3_1{
+    width:60%;
+    margin:0 auto;
     font-size: 0.8rem;
     font-weight: medium;
     line-height: 1.5;
@@ -93,9 +86,10 @@ header nav :nth-child(3){
 }
 
 /* .sub3_3 */
+
 .sub3_3{
     width:100%;
-    height:220px;
+    padding:5% 0;
     text-align: center;
     margin:0 auto;
     background-color: white;
@@ -104,35 +98,27 @@ header nav :nth-child(3){
     position:relative;
 }
 
-.sub3_3 h3{
-    position:absolute;
-    top:24%; left:44%;
+.sub3_3 h2 b{
     font-family: HeadlineR-HM;
-    font-size:2.5rem;
+    font-size:1.8rem;
     text-align: left;
     color: #dddaf0;
-    z-index:1;
-
 }
 .sub3_3 h2{
-    position:absolute;
-    top:40%; left:50%;
-    transform:translateX(-50%);
+    white-space:pre;
     font-size:1.5rem;
-    padding-bottom:36px;
-    z-index:2;
-    padding-bottom:5px;
 }
+
 
 /* .sub3_4 */
 .sub3_4{
-    width:100%;height:600px;
+    width:100%;padding:55%;
     background-color:white;
     padding:140px 0;
     position:relative;
 }
 .sub3_41{
-    width:63%; height:300px;
+    width:60%; height:300px;
     margin:0 auto;
     overflow:hidden;  
     border:1px solid #f6f7f9;  
@@ -143,10 +129,12 @@ header nav :nth-child(3){
 }
 
 .sub3_4 li{
-    width:24%;
+    width:260px;
+    height:260px;
     border:1px solid #c2bbbb;
     flex-shrink: 0;
     margin-right:20px;
+    position:relative;
 }
 .wub3_4 li:last-child{
     margin:0;
@@ -156,7 +144,7 @@ header nav :nth-child(3){
 .sub3_4 li a{
     display:block;
     width:100%;
-    height:80%;
+    height:100%;
     font-size:0;    
 }
 .sub3_4 li:nth-child(1) a{
@@ -184,10 +172,14 @@ header nav :nth-child(3){
 }
 
 .sub3_4 li p{
-    height:20%;
+
     text-align: center;
-    padding:12px 0;
+    padding:0;
     font-weight: bold;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: rgba(255,255,255,0.6);
 }
 
 .sub3_4 li:hover {
@@ -224,35 +216,29 @@ header nav :nth-child(3){
 
 .sub3_5{
     width:100%;
-    height:360px;
+    padding:5% 0;
     text-align: center;
-    margin:45px auto;
     background-color: white;
-    position:relative;
+    margin:45px 0;
 }
 
-.sub3_5 h3{
-    position:absolute;
-    top:16% ; left:40%;
-    transform:translateX(-50%);
-
+.sub3_5 h2 b{
     font-family: HeadlineR-HM;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     text-align: left;
     color: #dddaf0;
     z-index:1;
     padding:0;margin:0;
 
 }
-.sub3_5 div{
-    position:absolute;
-    top:25% ; left:50%;
-    transform:translateX(-50%);
-    z-index:2;
-}
 .sub3_5 h2{
+    white-space:pre;
     font-size:1.5rem;
     padding-bottom:32px;
+}
+.sub3_5 p{
+    width:60%;
+    margin:0 auto;
 }
 
 .sub3_5 b{
@@ -265,6 +251,7 @@ header nav :nth-child(3){
     background-color: white;
     text-align: center;
     padding:120px 0;
+    margin-bottom:45px;
 }
 
 video{
@@ -714,4 +701,268 @@ video{
     top:0%;
     right:16%; 
     transform:scale(0.4);
+}
+
+@media (min-width:360px) and (max-width:767px){
+    main{
+        margin-top:18vw;
+    }
+
+    .sub3_1{
+        width:100%;
+        padding:10% 0;
+        text-align: center;
+        background-color: white;
+    }
+    
+    .sub3_1 h2 b{
+        font-family: HeadlineR-HM;
+        font-size:1.3rem;
+        text-align:center;
+        color: #dddaf0;  
+    
+    }
+    .sub3_1 h2{
+        font-size:1.25rem;
+        padding-bottom:3%;
+        padding-right:3%;
+    }
+    .sub3_1 p{
+        font-size:1rem;
+        width:75%;
+        padding:0px;
+        margin:0 auto;
+        text-align: center;
+        line-height: 1.7;
+    }    
+    .sub3_1 b{
+        color:#2f3972;
+        font-size:1rem;
+    }
+
+    /* .sub3-2 */
+.sub3_2{
+    width:100%;
+    background-color:white;
+    margin:20px auto;
+    padding:5% 5% 25% 5%;
+
+    position:relative;
+}
+
+.sub3_2 .txt3_1{
+    width:90%;
+    margin:0 auto;
+    font-size: 1rem;
+    font-weight: medium;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #010101;
+  
+}
+.sub3_2 .txt3_1 b{
+    font-size:0.9rem;
+}
+
+.sub3_2 a{
+    font-size: 0.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align:center;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50px;
+    padding:8px 15px;
+  
+    position:absolute;
+    right:6%;
+    bottom:5%;
+}
+
+.sub3_2 a:hover{
+    background-color:#2f3792;
+    color:white;
+    font-weight: bold;
+}
+
+/* .sub3_3 */
+.sub3_3{
+    width:100%;
+    padding:8% 0;
+    text-align: center;
+    margin:0 auto;
+    background-color: white;
+    margin-bottom:20px;
+
+    position:relative;
+}
+
+.sub3_3 h2 b{
+    font-family: HeadlineR-HM;
+    font-size:1.3rem;
+    text-align: center;
+    color: #dddaf0; 
+}
+.sub3_3 h2{
+    font-size:1.25rem;
+    padding-bottom:1%;
+    padding-right:2%;
+}
+
+/* .sub3_4 */
+.sub3_4{
+    width:100%;padding:15% 0 20% 0;
+    background-color:white;
+    position:relative;
+}
+.sub3_41{
+    width:90%; height:230px;
+    margin:0 auto;
+    overflow:auto;  
+    border:0px solid #f6f7f9;  
+}
+.sub3_4 ul{
+    height: 100%;
+    display:flex;
+}
+
+.sub3_4 li{
+    width:220px;
+    height:220px;
+    border:1px solid #c2bbbb;
+    flex-shrink: 0;
+    margin-right:2%;
+    position:relative;
+}
+.wub3_4 li:last-child{
+    margin:0;
+}
+
+
+.sub3_4 li a{
+    display:block;
+    width:100%;
+    height:100%;
+    font-size:0;    
+  
+}
+.sub3_4 li:nth-child(1) a{
+    background: url(../img/보전활동/sub3_4-1.png) no-repeat center center;
+}
+.sub3_4 li:nth-child(2) a{
+    
+    background: url(../img/보전활동/sub3_4-2.png) no-repeat center center;
+}
+.sub3_4 li:nth-child(3) a{
+    background: url(../img/보전활동/sub3_4-4.png) no-repeat center center;
+}
+.sub3_4 li:nth-child(4) a{
+    background: url(../img/보전활동/sub3_4-7.png) no-repeat center center;
+}
+.sub3_4 li:nth-child(5) a{
+   
+    background: url(../img/보전활동/sub3_4-5.png) no-repeat center center;
+}
+.sub3_4 li:nth-child(6) a{
+    background: url(../img/보전활동/sub3_4-6.png) no-repeat center center;
+}
+.sub3_4 li:nth-child(7) a{
+    background: url(../img/보전활동/sub3_4-3.png) no-repeat center center;
+}
+
+.sub3_4 li p{
+    text-align: center;
+    padding:0;
+    font-weight: bold;
+    position:absolute;
+    bottom:0; left:0;
+    width:100%;
+    background-color: rgba(255,255,255,0.6);
+    font-size:1.2rem;
+}
+
+.sub3_4 li:hover {
+    border:2px solid #2f3792;
+}
+
+.sub3_4 li:hover p{
+    color:#2f3792;
+    background-color:#f6f7f9;
+}
+
+.ar3-1 a{
+    position:absolute;
+    top:79%;
+    transform:translateY(-50%);
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    font-size:0;
+    transform:scale(0.6);
+}
+
+.sub3_4 .ar3-1 a:nth-child(1){
+    left:49%;
+    background:url('../img/btn-top1.png') no-repeat center center;
+
+}
+.sub3_4 .ar3-1 a:nth-child(2){
+    right:49%;
+    background:url('../img/btn-prev-8.png') no-repeat center center;
+}
+
+.sub3_5{
+    width:100%;
+    padding:10% 0;
+    text-align: center;
+    background-color: white;
+    margin:20px 0;
+}
+
+.sub3_5 h2 b{
+    font-family: HeadlineR-HM;
+    font-size:1.3rem;
+    text-align:center;
+    color: #dddaf0;  
+
+}
+.sub3_5 h2{
+    font-size:1.25rem;
+    padding-bottom:3%;
+    padding-right:3%;
+}
+.sub3_5 p{
+    font-size:1rem;
+    width:75%;
+    padding:0px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 1.7;
+}    
+.sub3_5 b{
+    color:#2f3972;
+    font-size:1rem;
+}
+
+/* .sub3_6 */
+.sub3_6{
+    width:100%;
+    background-color: white;
+    text-align: center;
+    padding:40px 0;
+    margin-bottom:20px;
+}
+
+video{
+    margin:0 auto;
+    width:90%; height:90%;
+    box-sizing:border-box;
+}
+.sub3_6 figure{
+    width:30%;
+    margin:0 auto;
+}
+.sub3_6 figure img{width:100%;}
+
 }
