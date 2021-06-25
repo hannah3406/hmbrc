@@ -265,6 +265,7 @@ main{
     background-color:white;
     margin:5% auto;
     padding:3%;
+    overflow: auto;
 
     position:relative;
 }
@@ -281,9 +282,11 @@ main{
     justify-content: space-around;
     /* background-color:  #f6f7f9; */
     padding:2%;
+   
 }
 .map-1 .map p{
     width:40%;
+    padding-bottom:10%;
 }
 .map-1 .map figure{
     width:58%;
@@ -299,13 +302,13 @@ main{
     line-height: 1.5;
 }
 
-.map-1 article a{
+.map-1 a{
     width:60px; height:60px;
     font-size:0;
     background:url(../img/btn-close.png) no-repeat center center;
     position:absolute;
     top:0;
-    right:-8%; 
+    right:0; 
     transform:scale(0.7);
 }
 
@@ -315,12 +318,11 @@ main{
     position:fixed;
     top:0; left:0;
 
-
     padding-top:2%;
     width:100%; height:100%;
     background-color:rgba(0,0,0,0.7);
     z-index: 100;
-    display:none;
+    /* display:none; */
 }
 
 .map-2 article{
@@ -349,6 +351,7 @@ main{
 .map-2 .map p{
     width:40%;
     font-size: 0.5rem;
+    padding-bottom:10%;
 }
 .map-2 .map figure{
     width:58%;
@@ -362,13 +365,13 @@ main{
     line-height: 1.5;
 }
 
-.map-2 article a{
+.map-2 a{
     width:60px; height:60px;
     font-size:0;
     background:url(../img/btn-close.png) no-repeat center center;
     position:absolute;
     top:0;
-    right:-8%; 
+    right:0; 
     transform:scale(0.7);
 }
 
@@ -411,6 +414,7 @@ main{
 }
 .map-3 .map p{
     width:40%;
+    padding-bottom:10%;
 }
 .map-3 .map figure{
     width:58%;
@@ -426,13 +430,13 @@ main{
     line-height: 1.5;
 }
 
-.map-3 article a{
+.map-3 a{
     width:60px; height:60px;
     font-size:0;
     background:url(../img/btn-close.png) no-repeat center center;
     position:absolute;
     top:0;
-    right:-8%; 
+    right:0; 
     transform:scale(0.7);
 }
 
@@ -475,6 +479,7 @@ main{
 }
 .map-4 .map p{
     width:40%;
+    padding-bottom:10%;
 }
 .map-4 .map figure{
     width:58%;
@@ -490,13 +495,13 @@ main{
     line-height: 1.5;
 }
 
-.map-4 article a{
+.map-4 a{
     width:60px; height:60px;
     font-size:0;
     background:url(../img/btn-close.png) no-repeat center center;
     position:absolute;
     top:0;
-    right:-8%; 
+    right:0; 
     transform:scale(0.7);
 }
 @media (min-width:1025px) and (max-width:1280px){
@@ -988,6 +993,261 @@ main{
     color:white;
     font-weight: bold;
 }
+/* map-1 */
+.map-1{
+    position:fixed;
+    top:0; left:0;
+
+
+    padding-top:2%;
+    width:100%; height:100%;
+    background-color:rgba(0,0,0,0.7);
+    z-index: 100;
+    /* display:none; */
+}
+
+.map-1 article{
+    width:80%; height:85vh;
+    background-color:white;
+    margin:5% auto;
+    padding:3%;
+    overflow:auto;
+
+    position:relative;
+}
+.map-1 h2{
+    text-align: left;
+    padding-bottom:3%;
+    color:#2f3792;
+    font-size: 1.25rem;
+    padding-left:2%;
+}
+.map-1 .map{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color:  #f6f7f9; */
+    padding:2%;
+   
+}
+.map-1 .map p{
+    width:40%;
+}
+.map-1 .map figure{
+    width:58%;
+}
+.map-1 .map figure img{
+    width:100%;
+}
+
+.map-1 .map p{font-size: 0.5rem;}
+.map-1 .map b{font-size:0.8rem;}
+.map-1 .map small{
+    font-size:0.7rem;
+    line-height: 1.5;
+}
+
+.map-1 a{
+    width:60px; height:60px;
+    font-size:0;
+    background:url(../img/btn-close.png) no-repeat center center;
+    position:absolute;
+    top:0;
+    right:0; 
+    transform:scale(0.5);
+}
+
+/* map-2 */
+.map-2{
+    position:fixed;
+    top:0; left:0;
+
+
+    padding-top:2%;
+    width:100%; height:100%;
+    background-color:rgba(0,0,0,0.7);
+    z-index: 100;
+    /* display:none; */
+}
+
+.map-2 article{
+    width:80%; height:85vh;
+    background-color:white;
+    margin:5% auto;
+    padding:3%;
+    overflow:auto;
+
+    position:relative;
+}
+.map-2 h2{
+    text-align: left;
+    padding-bottom:3%;
+    color:#2f3792;
+    font-size: 1.25rem;
+    padding-left:2%;
+}
+.map-2 .map{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color:  #f6f7f9; */
+    padding:2%;
+   
+}
+.map-2 .map p{
+    width:40%;
+}
+.map-2 .map figure{
+    width:58%;
+}
+.map-2 .map figure img{
+    width:100%;
+}
+
+.map-2 .map p{font-size: 0.5rem;}
+.map-2 .map b{font-size:0.8rem;}
+.map-2 .map small{
+    font-size:0.7rem;
+    line-height: 1.5;
+}
+
+.map-2 a{
+    width:60px; height:60px;
+    font-size:0;
+    background:url(../img/btn-close.png) no-repeat center center;
+    position:absolute;
+    top:0;
+    right:0; 
+    transform:scale(0.5);
+}
+
+/* map-3 */
+.map-3{
+    position:fixed;
+    top:0; left:0;
+
+
+    padding-top:2%;
+    width:100%; height:100%;
+    background-color:rgba(0,0,0,0.7);
+    z-index: 100;
+    /* display:none; */
+}
+
+.map-3 article{
+    width:80%; height:85vh;
+    background-color:white;
+    margin:5% auto;
+    padding:3%;
+    overflow:auto;
+
+    position:relative;
+}
+.map-3 h2{
+    text-align: left;
+    padding-bottom:3%;
+    color:#2f3792;
+    font-size: 1.25rem;
+    padding-left:2%;
+}
+.map-3 .map{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color:  #f6f7f9; */
+    padding:2%;
+   
+}
+.map-3 .map p{
+    width:40%;
+}
+.map-3 .map figure{
+    width:58%;
+}
+.map-3 .map figure img{
+    width:100%;
+}
+
+.map-3 .map p{font-size: 0.5rem;}
+.map-3 .map b{font-size:0.8rem;}
+.map-3 .map small{
+    font-size:0.7rem;
+    line-height: 1.5;
+}
+
+.map-3 a{
+    width:60px; height:60px;
+    font-size:0;
+    background:url(../img/btn-close.png) no-repeat center center;
+    position:absolute;
+    top:0;
+    right:0; 
+    transform:scale(0.5);
+}
+
+/* map-4 */
+.map-4{
+    position:fixed;
+    top:0; left:0;
+
+
+    padding-top:2%;
+    width:100%; height:100%;
+    background-color:rgba(0,0,0,0.7);
+    z-index: 100;
+    /* display:none; */
+}
+
+.map-4 article{
+    width:80%; height:85vh;
+    background-color:white;
+    margin:5% auto;
+    padding:3%;
+    overflow:auto;
+
+    position:relative;
+}
+.map-4 h2{
+    text-align: left;
+    padding-bottom:3%;
+    color:#2f3792;
+    font-size: 1.25rem;
+    padding-left:2%;
+}
+.map-4 .map{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color:  #f6f7f9; */
+    padding:2%;
+   
+}
+.map-4 .map p{
+    width:40%;
+}
+.map-4 .map figure{
+    width:58%;
+}
+.map-4 .map figure img{
+    width:100%;
+}
+
+.map-4 .map p{font-size: 0.5rem;}
+.map-4 .map b{font-size:0.8rem;}
+.map-4 .map small{
+    font-size:0.7rem;
+    line-height: 1.5;
+}
+
+.map-4 a{
+    width:60px; height:60px;
+    font-size:0;
+    background:url(../img/btn-close.png) no-repeat center center;
+    position:absolute;
+    top:0;
+    right:0; 
+    transform:scale(0.5);
+}
 
 }
 @media (min-width:360px) and (max-width:767px){
@@ -1239,6 +1499,145 @@ main{
     font-weight: bold;
 }
 
+/* 지도 */
+/* map-1 */
+.map-1{
+    padding-top:15%;
+}
+
+.map-1 article{
+   width:90%; height:75vh;
+   background-color:#fff;
+   margin:5% auto;
+   padding:3%;
+   overflow:auto;
+
+   position:relative;
+}
+.map-1 h2{
+   text-align: left;
+   padding-bottom:3%;
+   color:#2f3792;
+   font-size: 1.25rem;
+   padding-right:10%;
+}
+.map-1 .map{
+   display:block;
+   padding:2%;
+}
+.map-1 .map p {width:100%;}
+.map-1 .map figure{width:80%;}
+.map-1 .map img{width:100%;}
+
+.map-1 a{
+   top:5%;
+   right:0; 
+   transform:scale(0.4);
+}
+
+/* map-2 */
+.map-2{
+    padding-top:15%;
+}
+
+.map-2 article{
+   width:90%; height:75vh;
+   background-color:#fff;
+   margin:5% auto;
+   padding:3%;
+   overflow:auto;
+
+   position:relative;
+}
+.map-2 h2{
+   text-align: left;
+   padding-bottom:3%;
+   color:#2f3792;
+   font-size: 1.25rem;
+   padding-right:10%;
+}
+.map-2 .map{
+   display:block;
+   padding:2%;
+}
+.map-2 .map p {width:100%;}
+.map-2 .map figure{width:80%;}
+.map-2 .map img{width:100%;}
+
+.map-2 a{
+   top:5%;
+   right:0; 
+   transform:scale(0.4);
+}
+
+/* map-3 */
+.map-3{
+    padding-top:15%;
+}
+
+.map-3 article{
+   width:90%; height:75vh;
+   background-color:#fff;
+   margin:5% auto;
+   padding:3%;
+   overflow:auto;
+
+   position:relative;
+}
+.map-3 h2{
+   text-align: left;
+   padding-bottom:3%;
+   color:#2f3792;
+   font-size: 1.25rem;
+   padding-right:10%;
+}
+.map-3 .map{
+   display:block;
+   padding:2%;
+}
+.map-3 .map p {width:100%;}
+.map-3 .map figure{width:80%;}
+.map-3 .map img{width:100%;}
+
+.map-3 a{
+   top:5%;
+   right:0; 
+   transform:scale(0.4);
+}
+/* map-4 */
+.map-4{
+    padding-top:15%;
+}
+
+.map-4 article{
+   width:90%; height:75vh;
+   background-color:#fff;
+   margin:5% auto;
+   padding:3%;
+   overflow:auto;
+
+   position:relative;
+}
+.map-4 h2{
+   text-align: left;
+   padding-bottom:3%;
+   color:#2f3792;
+   font-size: 1.25rem;
+   padding-right:10%;
+}
+.map-4 .map{
+   display:block;
+   padding:2%;
+}
+.map-4 .map p {width:100%;}
+.map-4 .map figure{width:80%;}
+.map-4 .map img{width:100%;}
+
+.map-4 a{
+   top:5%;
+   right:0; 
+   transform:scale(0.4);
+}
 
 
 

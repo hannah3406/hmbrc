@@ -745,7 +745,8 @@ header nav :nth-child(4){
         color: #2f3972;
         font-size: 1rem;
         text-align: left;
-         padding-bottom:5%;
+        padding-bottom:5%;
+        line-height: 1.7;
     }
     .sub4_21{
         width:90%;
@@ -875,7 +876,7 @@ header nav :nth-child(4){
     text-align:center;
     width:250px;
     margin:0 auto;
-    transform: scale(0.6);
+    transform: scale(0.5);
 }
 .pagination{
     display:flex;
@@ -887,7 +888,7 @@ header nav :nth-child(4){
 }
 
 .pagination li a{
-    font-size:1.25rem;
+    font-size:1.3rem;
     display:block;
     background-color: #fff;
     width:35px; height:35px;
