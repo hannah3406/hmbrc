@@ -178,8 +178,6 @@ main{
 }
 
 .language .language-1 ul{
-    
-    border:1px solid #000;
     background-color:#fff;
     color:#000;
     font-size:0.8rem;
@@ -193,10 +191,11 @@ main{
     
     position:absolute;
     bottom:105%;
-    left:0;    
+    left:0;   
+    display:none; 
 }
 
-.language .language-1 ul li{display:none;width:100%;text-align:center;}
+.language .language-1 ul li{width:100%;text-align:center;}
 
 .language .language-1 ul li:hover{
     background-color:#000;
@@ -234,7 +233,6 @@ main{
 }
 
 .familysites .familysites-1 ul{
-    border:1px solid #000;
     background-color:#fff;
     color:#000;
     font-size:0.8rem;
@@ -245,10 +243,12 @@ main{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    display:none; 
     
     position:absolute;
     bottom:105%;
-    left:0;    }
+    left:0;   
+ }
 
 
 .familysites .familysites-1 ul li{display:none;width:100%;text-align:center;}
@@ -396,7 +396,6 @@ main{
     
     .language .language-1 ul{
         
-        border:1px solid #000;
         background-color:#fff;
         color:#000;
         font-size:0.8rem;
@@ -407,13 +406,14 @@ main{
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        display:none;
         
         position:absolute;
         bottom:105%;
         left:0;    
     }
     
-    .language .language-1 ul li{display:none;width:100%;text-align:center;}
+    .language .language-1 ul li{width:100%;text-align:center;}
     
     .language .language-1 ul li:hover{
         background-color:#000;
@@ -600,8 +600,6 @@ main{
         position:relative;
     }
     .language .language-1 ul{
-        display:none;
-        border:1px solid #000;
         background-color:#fff;
         color:#000;
         font-size:0.8rem;
@@ -612,6 +610,7 @@ main{
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        display:none;
         
         position:absolute;
         bottom:101%;
@@ -667,7 +666,7 @@ main{
         background-color:white;
     }
     .familysites .familysites-1 ul{
-        display:none;
+
         border:1px solid #000;
         background-color:#fff;
         color:#000;
@@ -679,6 +678,7 @@ main{
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        display:none;
         
         position:absolute;
         bottom:101%;
@@ -831,6 +831,7 @@ main{
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        display:none;
         
         position:absolute;
         bottom:101%;
@@ -884,6 +885,7 @@ main{
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        display:none;
         
         position:absolute;
         bottom:101%;
@@ -1018,6 +1020,7 @@ main{
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        display:none;
         
         position:absolute;
         bottom:101%;
@@ -1071,6 +1074,7 @@ main{
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        display:none;
         
         position:absolute;
         bottom:101%;
@@ -1174,6 +1178,8 @@ main{
         display:flex;
         justify-content: space-between;
         align-items: center;
+
+        
     }
     .language{
         width:49%;  
@@ -1205,7 +1211,7 @@ main{
         background-color:white;
     }
     .language .language-1 ul{
-        border:1px solid #000;
+
         background-color:#fff;
         color:#000;
         font-size:0.6rem;
@@ -1219,7 +1225,8 @@ main{
         
         position:absolute;
         bottom:101%;
-        left:0;    
+        left:0; 
+        display:none;   
     }
 
     .language .language-1 ul li{width:100%;text-align:center;font-size:0.7rem;}
@@ -1258,7 +1265,6 @@ main{
         background-color:white;
     }
     .familysites .familysites-1 ul{
-        border:1px solid #000;
         background-color:#fff;
         color:#000;
         font-size:0.6rem;
@@ -1272,7 +1278,8 @@ main{
         
         position:absolute;
         bottom:101%;
-        left:0;    }
+        left:0;    
+    }
     
     
     .familysites .familysites-1 ul li{width:100%;text-align:center;font-size:0.7rem;}
