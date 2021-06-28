@@ -39,7 +39,7 @@ nav> a{margin-left:3%; font-size:0.9rem; font-weight:Medium;}
 /* hover */
 
 /* header:hover nav{transform:scale(1.1);} */
-header nav a:hover{
+header nav > a:hover{
     color:#2f3972;
     font-weight: bold;
     border-bottom:2px solid #2f3972;
@@ -64,27 +64,28 @@ header nav a:hover{
     right:0; top:0;
     width:80%; height:100%;
     background-color:#fff;
+
     display:flex;
     justify-content: center;
     flex-direction: column;
     text-align: left;
 }
-
 .h-1 li{
     width:100%;
-    padding:5% 15%;
-    border-bottom:1px solid #777;
+    margin:0;
+    padding:7% 15%;
+    border-bottom:1px solid #999;
     font-size: 1rem;
     position:relative;
 }
-.h-1 li:nth-child(1){border-top:1px solid #777;}
+.h-1 li:nth-child(1){border-top:1px solid #999;}
 
 .h-1 li::after{
     content:'';
     display:block;
 
     position:absolute;
-    top:50%; right:3%;
+    top:50%; right:5%;
     transform:translateY(-50%);
     width:30px;
     height:30px;

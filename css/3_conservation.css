@@ -2,7 +2,7 @@
 
 @import url(common.css);
 
-header nav :nth-child(3){
+header nav > a:nth-child(3){
     color:#2f3972;
     font-weight: bold;
     font-size: 22px;
