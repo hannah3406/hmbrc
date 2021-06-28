@@ -34,7 +34,7 @@ header{
 }
 header > a{transform:scale(0.9);width:10%;}
 nav{width:40%;}
-nav> a{margin-left:3%; font-size:0.9rem; font-weight:Medium;}
+nav> a{margin-left:3%; font-size:0.9rem; font-weight:normal;}
 
 /* hover */
 
@@ -117,7 +117,7 @@ main{
 .footer-1 a{transform:scale(0.9);width:10%;}
 
 .footer-1 nav{width:40%;text-align: center;}
-.footer-1 nav a{font-size:0.9rem; font-weight:Medium;color:white;}
+.footer-1 nav a{font-size:0.9rem; font-weight:normal;color:white;}
 
 .footer-2{
     width:80%;
@@ -132,7 +132,7 @@ main{
 }
 .footer-2 p{
     font-size: 0.8rem;
-    font-weight: medium;
+    font-weight: normal;
     color:white;
     padding-left: 12px;
 }
@@ -295,7 +295,7 @@ main{
     }
     header > a{transform:scale(0.9);width:10%;}
     nav{width:40%;}
-    nav> a{margin-left:3%; font-size:0.9rem; font-weight:Medium;}
+    nav> a{margin-left:3%; font-size:0.9rem; font-weight:normal;}
     
     /* hover */
     
@@ -334,7 +334,7 @@ main{
     .footer-1 a{transform:scale(0.9);width:10%;}
     
     .footer-1 nav{width:40%;text-align: center;}
-    .footer-1 nav a{font-size:0.9rem; font-weight:Medium;color:white;}
+    .footer-1 nav a{font-size:0.9rem; font-weight:normal;color:white;}
     
     .footer-2{
         width:80%;
@@ -349,7 +349,7 @@ main{
     }
     .footer-2 p{
         font-size: 0.8rem;
-        font-weight: medium;
+        font-weight: normal;
         color:white;
         padding-left: 12px;
     }
@@ -513,7 +513,7 @@ main{
     }
     header > a{transform:scale(0.6);width:10%;}
     nav{width:40%;}
-    nav> a{margin-left:3%; font-size:0.8rem; font-weight:Medium;}
+    nav> a{margin-left:3%; font-size:0.8rem; font-weight:normal;}
     
     /* hover */
     
@@ -553,7 +553,7 @@ main{
     .footer-1 a{transform:scale(0.9);width:10%;}
     
     .footer-1 nav{width:40%;text-align: center;}
-    .footer-1 nav a{font-size:0.9rem; font-weight:Medium;color:white;}
+    .footer-1 nav a{font-size:0.9rem; font-weight:normal;color:white;}
     
     .footer-2{
         width:80%;
@@ -568,7 +568,7 @@ main{
     }
     .footer-2 p{
         font-size: 0.8rem;
-        font-weight: medium;
+        font-weight: normal;
         color:white;
         padding-left: 12px;
     }
@@ -714,7 +714,7 @@ main{
     header{height:8vw;}
     header > a{transform:scale(0.65);width:30%;}
     header > nav{width:10%;}
-    header > nav> a{margin:0; font-size:0.9rem; font-weight:Medium;display:none;}
+    header > nav> a{margin:0; font-size:0.9rem; font-weight:normal;display:none;}
     header > nav> .menu_trigger{  
         display:block;
         margin:0 auto;    
@@ -921,7 +921,7 @@ main{
     header{height:9vw;}
     header > a{transform:scale(0.6);width:5%;}
     header > nav{width:10%;}
-    header > nav> a{margin:0; font-size:0.9rem; font-weight:Medium;display:none;}
+    header > nav> a{margin:0; font-size:0.9rem; font-weight:normal;display:none;}
     header > nav> .menu_trigger{  
         display:block;
         margin:0 auto; 
@@ -1125,7 +1125,7 @@ main{
     header{height:15vw;}
     header > a{transform:scale(0.5);width:5%;}
     header > nav{width:10%;}
-    header > nav> a{margin:0; font-size:0.9rem; font-weight:Medium;display:none;}
+    header > nav> a{margin:0; font-size:0.9rem; font-weight:normal;display:none;}
     header > nav> .menu_trigger{  
         display:block;
         margin:0 auto; 

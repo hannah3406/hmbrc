@@ -225,7 +225,7 @@ main{margin-top:6vw;}
 .m-2 ul li figcaption p{
     width:75%;
     font-size: 0.7rem;
-    font-weight: light;
+    font-weight: normal;
     text-align: left;
     color: #ffffff;
     line-height: 1.5;
@@ -446,7 +446,7 @@ main{margin-top:6vw;}
     text-align:left;
     color: #ffffff;
     font-size: 0.8rem;
-    font-weight: light;
+    font-weight: normal;
     line-height: 1.5;
     padding-bottom:40px;
 }
@@ -691,7 +691,7 @@ main{margin-top:6vw;}
     .m-2 ul li figcaption p{
         width:75%;
         font-size: 0.7rem;
-        font-weight: light;
+        font-weight: normal;
         text-align: left;
         color: #ffffff;
         line-height: 1.5;
@@ -913,7 +913,7 @@ main{margin-top:6vw;}
         text-align:left;
         color: #ffffff;
         font-size: 0.8rem;
-        font-weight: light;
+        font-weight: normal;
         line-height: 1.5;
         padding-bottom:20px;
     }
@@ -1160,7 +1160,7 @@ main{margin-top:9vw;}
 .m-2 ul li figcaption p{
     width:90%;
     font-size: 1.1rem;
-    font-weight: light;
+    font-weight: normal;
     text-align: left;
     color: #ffffff;
     line-height: 1.5;
@@ -1384,7 +1384,7 @@ main{margin-top:9vw;}
     text-align:left;
     color: #ffffff;
     font-size: 0.8rem;
-    font-weight: light;
+    font-weight: normal;
     line-height: 1.5;
     padding-bottom:30px;
     margin-right:0;
@@ -1559,7 +1559,7 @@ main{margin-top:9vw;}
     .m-2 ul li figcaption p{
         width:90%;
         font-size: 1rem;
-        font-weight: light;
+        font-weight: normal;
         text-align: left;
         color: #ffffff;
         line-height: 1.5;
@@ -1780,7 +1780,7 @@ main{margin-top:9vw;}
     text-align:left;
     color: #ffffff;
     font-size: 0.8rem;
-    font-weight: light;
+    font-weight: normal;
     line-height: 1.5;
     padding-bottom:40px;
 }
@@ -1956,7 +1956,7 @@ main{margin-top:9vw;}
     .m-2 ul li figcaption p{
         width:90%;
         font-size: 1.05rem;
-        font-weight: light;
+        font-weight: normal;
         text-align: left;
         color: #ffffff;
         line-height: 1.5;
@@ -2169,7 +2169,7 @@ main{margin-top:9vw;}
     text-align:left;
     color: #ffffff;
     font-size: 0.8rem;
-    font-weight: light;
+    font-weight: normal;
     line-height: 1.5;
     padding-bottom:40px;
 }
