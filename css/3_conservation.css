@@ -54,7 +54,7 @@ header nav > a:nth-child(3){
     width:60%;
     margin:0 auto;
     font-size: 0.8rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -758,7 +758,7 @@ video{
     width:90%;
     margin:0 auto;
     font-size: 1rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -1202,7 +1202,7 @@ video{
     width:90%;
     margin:0 auto;
     font-size: 1rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
