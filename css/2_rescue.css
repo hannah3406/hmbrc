@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 
 @import url(common.css);
 
@@ -57,7 +57,7 @@ main{
     width:60%;
     margin:0 auto;
     font-size: 0.8rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -194,7 +194,7 @@ main{
 
 }
 .sub2_4 li:hover .txt2_2 b{color:#2f3972;}
-.sub2_4 li:hover .txt2_2 p{font-weight:medium;}
+.sub2_4 li:hover .txt2_2 p{font-weight:normal;}
 
 
 .map-1{
@@ -511,7 +511,7 @@ main{
     width:90%;
     margin:0 auto;
     font-size: 1rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -649,7 +649,7 @@ main{
 
 }
 .sub2_4 li:hover .txt2_2 b{color:#2f3972;}
-.sub2_4 li:hover .txt2_2 p{font-weight:medium;}
+.sub2_4 li:hover .txt2_2 p{font-weight:normal;}
 
 /* pop-up */
 .pop-1{
@@ -754,7 +754,7 @@ main{
     width:90%;
     margin:0 auto;
     font-size: 1rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -892,7 +892,7 @@ main{
 
 }
 .sub2_4 li:hover .txt2_2 b{color:#2f3972;}
-.sub2_4 li:hover .txt2_2 p{font-weight:medium;}
+.sub2_4 li:hover .txt2_2 p{font-weight:normal;}
 
 .pop-1{
     position:fixed;
@@ -1081,7 +1081,7 @@ main{
     width:90%;
     margin:0 auto;
     font-size: 1rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -1220,7 +1220,7 @@ main{
 
 }
 .sub2_4 li:hover .txt2_2 b{color:#2f3972;}
-.sub2_4 li:hover .txt2_2 p{font-weight:medium;}
+.sub2_4 li:hover .txt2_2 p{font-weight:normal;}
 
 /* pop-up */
 .pop-1{

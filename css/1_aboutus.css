@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 
 @import url(common.css);
 
@@ -54,7 +54,7 @@ main{
 
 .sub1_2 .txt2_1{
     font-size: 0.8rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -150,7 +150,7 @@ main{
 .sub1_4 li p{
     width:90%;
     font-size:0.9rem;
-    font-weight: light;
+    font-weight: normal;
     text-align:left;
     padding-top:5%;
     margin:0 auto;
@@ -556,7 +556,7 @@ main{
 
 .sub1_2 .txt2_1{
     font-size: 0.8rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -652,7 +652,7 @@ main{
     width:95%;
     margin:0 auto;
     font-size:0.9rem;
-    font-weight: light;
+    font-weight: normal;
     text-align:left;
     padding-top:5%;
 }
@@ -808,7 +808,7 @@ main{
 
 .sub1_2 .txt2_1{
     font-size: 0.9rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -904,7 +904,7 @@ main{
     width:95%;
     margin:0 auto;
     font-size:0.7rem;
-    font-weight: light;
+    font-weight: normal;
     text-align:left;
     padding-top:5%;
 }
@@ -1315,7 +1315,7 @@ main{
 
 .sub1_2 .txt2_1{
     font-size: 1rem;
-    font-weight: medium;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
@@ -1410,7 +1410,7 @@ main{
     width:90%;
     margin: 0 auto;
     font-size:0.8rem;
-    font-weight: light;
+    font-weight: normal;
     text-align:left;
     padding-top:5%;
 }
