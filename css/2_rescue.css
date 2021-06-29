@@ -883,7 +883,7 @@ main{
 
 .sub2_4 li:hover .txt2_2 a{
     opacity: 1;
-    transform:scale(0.6) rotate(-15deg);
+    transform:scale(0.3) rotate(-15deg);
 }
 
 .sub2_4 li:hover{
@@ -1211,7 +1211,7 @@ main{
 
 .sub2_4 li:hover .txt2_2 a{
     opacity: 1;
-    transform:scale(0.6) rotate(-15deg);
+    transform:scale(0.3) rotate(-15deg);
 }
 
 .sub2_4 li:hover{

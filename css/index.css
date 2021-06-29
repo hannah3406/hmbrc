@@ -1908,6 +1908,7 @@ main{margin-top:9vw;}
     
     .m-2 ul li:hover img{
         width:100%;;
+        border-radius: 10px; 
         
     }
     
@@ -2070,6 +2071,7 @@ main{margin-top:9vw;}
     }
     .m-3 ul .m-3_li:hover img{
         transform:scale(1.1);
+        border-radius: 10px; 
 
     }
     .m-3 ul .m-3_txt{
