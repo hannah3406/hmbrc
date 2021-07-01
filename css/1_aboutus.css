@@ -6,7 +6,7 @@
 header nav > a:nth-child(1){
     color:#2f3972;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 0.8rem;
     border-bottom:2px solid #2f3972;
 }
 main{
@@ -509,7 +509,7 @@ main{
 header nav :nth-child(1){
     color:#2f3972;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 0.8rem;
     border-bottom:2px solid #2f3972;
 }
 main{
@@ -755,7 +755,7 @@ main{
 header nav :nth-child(1){
     color:#2f3972;
     font-weight: bold;
-    font-size: 0px;
+    font-size: 0;
     border-bottom:0px solid #2f3972;
 }
 header nav a:hover{
