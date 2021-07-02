@@ -1173,20 +1173,20 @@ main{
     
 }
 .sub2_4 li{
-    width:324px; height:488px; border:1px solid #c2bbbb;
+    width:280px; height:488px; border:1px solid #c2bbbb;
     padding:0 0 4% 0;
 
     transition:.5s;
     background-color:#f6f7f9;
     border-radius: 10px;
     margin:0 auto;
-    margin-right:2%;
+    margin-right:1%;
     margin-left:0;
 
     position:relative;
 }
 .sub2_4 li:last-child{margin-right:0;}
-.sub2_4 li figure{width:280px; border-radius: 10px; margin:0 auto;padding-top:18px;}
+.sub2_4 li figure{width:260px; border-radius: 10px; margin:0 auto;padding-top:18px;}
 .sub2_4 li figure img{width:100%; border-radius: 10px;}
 
 .sub2_4 li p{
