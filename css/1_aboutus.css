@@ -237,6 +237,7 @@ main{
     background-color: #000;
     border-radius: 50px;
     padding:10px 20px;
+    cursor:pointer;
 }
 
 .sub1_6 .txt2_3 a:hover{
@@ -313,6 +314,7 @@ main{
     top:0;
     right:0; 
     transform:scale(0.7);
+    cursor:pointer;
 }
 
 /* map-2 */
@@ -379,6 +381,7 @@ main{
     top:0;
     right:0; 
     transform:scale(0.7);
+    cursor:pointer;
 }
 
 
@@ -446,6 +449,7 @@ main{
     top:0;
     right:0; 
     transform:scale(0.7);
+    cursor:pointer;
 }
 
 
@@ -507,6 +511,7 @@ main{
 }
 
 .map-4 a{
+    cursor:pointer;
     width:60px; height:60px;
     font-size:0;
     background:url(../img/btn-close.png) no-repeat center center;
