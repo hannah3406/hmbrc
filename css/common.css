@@ -707,7 +707,7 @@ main{
     header > nav{width:10%;}
     header > nav> a{margin:0; font-size:0.9rem; font-weight:normal;display:none;}
     
-    .menu_bg{display:none;}
+    /* .menu_bg{display:none;} */
     .menu_box{   
         position:fixed;
         right:0; top:0;

@@ -1,5 +1,5 @@
 
-//toggle
+// toggle
 const elBurgur = document.querySelector('.menu-trigger');
 const elBg = document.querySelector('.menu_bg');
 	elBurgur.addEventListener('click',function(){
