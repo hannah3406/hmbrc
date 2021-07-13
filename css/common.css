@@ -14,7 +14,7 @@ a{text-decoration:none; cursor:pointer;}
     font-family:Noto Sans KR;
     color:black;
 }
-
+html{scroll-behavior: smooth;}
 /* header */
 header{
     position:fixed;
