@@ -52,8 +52,9 @@ header nav > .menu_bar:hover{
     right:0; top:0;
     width:100%; height:100%;
     display:none;
+    transition:1s;
 }
-.background-menu.active2{display:block;}
+.background-menu.active2{display:block; transition:1s;}
 .menu_bg{
     width:100%; height:100%;
     background-color: rgba(0,0,0,0.8);
@@ -65,6 +66,7 @@ header nav > .menu_bar:hover{
     right:-100%; top:0;
     width:80%; height:100%;
     background-color:#fff;
+    transition:1s;
 }
 .h-1{
     margin-top:25%;
@@ -127,7 +129,6 @@ main{
     margin:0 auto;
     padding-top:110px;
 
-    
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -143,7 +144,6 @@ main{
 .footer-2 .footer-box{
     margin-right:0;
 
-
     width:32%;
     height:30px;  
     display:flex;
@@ -158,7 +158,7 @@ main{
     width:100%;  
     height:100%;  
     border:1px solid white;
- 
+
     background-color:#000;
     color:#fff;
     font-size:0.8rem;
@@ -251,7 +251,7 @@ main{
     position:absolute;
     bottom:105%;
     left:0;   
- }
+}
 
 
 .familysites .familysites-1 ul li{display:none;width:100%;text-align:center;}
@@ -1434,11 +1434,11 @@ main{
         border-bottom:0px solid #2f3972;
     }
 
-    .menu_bg.active{opacity:1;transition:.5s;}
+    .menu_bg.active{opacity:1;transition:5s;}
     .menu_box{   
         position:fixed;
         right:-100%; top:0;
-        width:80%; height:100%;
+        width:90%; height:100%;
         background-color:#fff;
         transition:.5s;
     }
@@ -1662,7 +1662,7 @@ main{
         width:100%;  
         height:100%;  
         border:1px solid white;
-     
+
         background-color:#000;
         color:#fff;
         font-size:0.6rem;
