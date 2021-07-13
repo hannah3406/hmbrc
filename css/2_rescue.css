@@ -80,6 +80,7 @@ main{
     position:absolute;
     right:35%;
     bottom:15%;
+    cursor:pointer;
 }
 
 .sub2_2 a:hover{
@@ -153,6 +154,7 @@ main{
     border-radius: 10px;
 
     position:relative;
+    cursor:pointer;
 }
 .sub2_4 li img{width:90%; border-radius: 10px;}
 
@@ -207,7 +209,7 @@ main{
 
 
 /* pop-up */
-.pop-1{
+.pop-1 {
     position:fixed;
     top:0; left:0;
 
@@ -218,7 +220,6 @@ main{
     z-index: 100;
     display:none;
 }
-
 .pop-1 article{
     width:55%; height:80vh;
     background-color:white;
@@ -251,8 +252,9 @@ main{
     top:0;
     right:0; 
     transform:scale(0.4);
+    cursor:pointer;
 }
-
+.pop-1.open1{display:block;}
 
 /* pop-2 */
 
@@ -319,7 +321,10 @@ main{
     top:0%;
     right:16%; 
     transform:scale(0.4);
+    cursor:pointer;
 }
+
+.pop-2.open2{display:block;}
 
 /* pop-3 */
 
@@ -387,7 +392,9 @@ main{
     top:0%;
     right:16%; 
     transform:scale(0.4);
+    cursor:pointer;
 }
+.pop-3.open3{display:block;}
 
 /* pop-4 */
 
@@ -453,10 +460,13 @@ main{
     top:0%;
     right:16%; 
     transform:scale(0.4);
+    cursor:pointer;
 }
 .pop-41 .pop-txt1:nth-child(2n){
     background-color:#edeefc;
 }
+
+.pop-4.open4{display:block;}
 
 /* pop-4 */
 
@@ -1032,7 +1042,7 @@ main{
 }
 @media (min-width:360px) and (max-width:768px){
     main{
-        margin-top:18vw;
+        margin-top:14vw;
     }
 
     .sub2_1{
