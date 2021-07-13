@@ -6,7 +6,7 @@ btnPopup1.addEventListener('click',function(){
 
    //닫기
 elPopup1.addEventListener('click',function(){
-    if(event.target.nodeName !='IMG'){
+    if(event.target.nodeName =='A'){
         elPopup1.classList.remove('open1');}
 })
 
