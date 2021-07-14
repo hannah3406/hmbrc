@@ -843,7 +843,7 @@ video{
     height:220px;
     border:1px solid #c2bbbb;
     flex-shrink: 0;
-    margin-right:2%;
+    margin-right:20px;
     position:relative;
 }
 .wub3_4 li:last-child{
@@ -856,7 +856,7 @@ video{
     width:100%;
     height:100%;
     font-size:0;    
-  
+
 }
 .sub3_4 li:nth-child(1) a{
     background: url(../img/보전활동/sub3_4-1.png) no-repeat center center;
@@ -1288,7 +1288,7 @@ video{
     height:220px;
     border:1px solid #c2bbbb;
     flex-shrink: 0;
-    margin-right:2%;
+    margin-right:20px;
     position:relative;
 }
 .wub3_4 li:last-child{
