@@ -872,8 +872,8 @@ video{
     background: url(../img/보전활동/sub3_4-7.png) no-repeat center center;
 }
 .sub3_4 li:nth-child(5) a{
-   
-    background: url(../img/보전활동/sub3_4-5.png) no-repeat center center;
+
+    background: url(../img/보전활동/sub3_4-8.jpg) no-repeat center center;
 }
 .sub3_4 li:nth-child(6) a{
     background: url(../img/보전활동/sub3_4-6.png) no-repeat center center;
@@ -915,13 +915,13 @@ video{
 }
 
 .sub3_4 .ar3-1 a:nth-child(1){
-    left:49%;
-    background:url('../img/btn-top1.png') no-repeat center center;
+    left:45%;
+    background:url('../img/btn-prev-8.png') no-repeat center center;
 
 }
 .sub3_4 .ar3-1 a:nth-child(2){
-    right:49%;
-    background:url('../img/btn-prev-8.png') no-repeat center center;
+    right:43%;
+    background:url('../img/btn-top1.png') no-repeat center center;
 }
 
 .sub3_5{
@@ -1318,7 +1318,7 @@ video{
 }
 .sub3_4 li:nth-child(5) a{
    
-    background: url(../img/보전활동/sub3_4-5.png) no-repeat center center;
+    background: url(../img/보전활동/sub3_4-8.jpg) no-repeat center center;
 }
 .sub3_4 li:nth-child(6) a{
     background: url(../img/보전활동/sub3_4-6.png) no-repeat center center;
@@ -1350,7 +1350,8 @@ video{
 
 .ar3-1 a{
     position:absolute;
-    top:79%;
+    top:76%;
+    left:50%;
     transform:translateY(-50%);
     width:50px;
     height:50px;
@@ -1360,13 +1361,14 @@ video{
 }
 
 .sub3_4 .ar3-1 a:nth-child(1){
-    left:49%;
-    background:url('../img/btn-top1.png') no-repeat center center;
+    left:48%;
+    transform:translateX(-48%) scale(0.6);
+    background:url('../img/btn-prev-8.png') no-repeat center center;
 
 }
 .sub3_4 .ar3-1 a:nth-child(2){
-    right:49%;
-    background:url('../img/btn-prev-8.png') no-repeat center center;
+    right:20%;
+    background:url('../img/btn-top1.png') no-repeat center center;
 }
 
 .sub3_5{
