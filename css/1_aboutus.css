@@ -20,6 +20,12 @@ main{
     background-color: white;
     position:relative;
     margin-top:45px;
+    animation:a1 2s forwards;
+}
+
+@keyframes a1{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .sub1_1 h2{
@@ -50,7 +56,9 @@ main{
     padding:5% 5% 15% 5%;
 
     position:relative;
+    animation:a1 2s forwards;
 }
+
 
 .sub1_2 .txt2_1{
     font-size: 0.8rem;
@@ -88,7 +96,11 @@ main{
     margin-bottom:45px;
 
     position:relative;
+    transition:1s;
+    opacity: 0;
+    transform:translateY(300px);
 }
+.sub1_3.active{opacity: 1; transform:translateY(0);}
 
 .sub1_3 h2{
     font-size:1.5rem;
@@ -109,7 +121,11 @@ main{
     width:100%; 
     padding:5% 0;
     background-color: white;  
+    transition:1s;
+    opacity: 0;
+    transform:translateY(300px);
 }
+.sub1_4.active{opacity: 1; transform:translateY(0);}
 
 .sub1_4 h1{
     width:100%;
@@ -184,7 +200,11 @@ main{
 }
 
 /* sub1_6 */
-.sub1_6{padding-bottom:45px;}
+.sub1_6{padding-bottom:45px;    transition:1s;
+    opacity: 0;
+    transform:translateY(300px);
+}
+.sub1_6.active{opacity: 1; transform:translateY(0);}
 .sub1_6 ul{
     width:100%;
 }

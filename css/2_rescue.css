@@ -18,6 +18,12 @@ main{
     padding:5% 0;
     text-align: center;
     background-color: white;
+    animation:a1 2s forwards;
+}
+
+@keyframes a1{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .sub2_1 h2 b{
@@ -51,6 +57,7 @@ main{
     padding:5% 0 15% 0;
 
     position:relative;
+    animation:a1 2s forwards;
 }
 
 .sub2_2 .txt2_1{
@@ -99,7 +106,11 @@ main{
     margin-bottom:45px;
 
     position:relative;
+    transition:1s;
+    opacity: 0;
+    transform:translateY(300px);
 }
+.sub2_3.active{opacity: 1; transform:translateY(0);}
 
 .sub2_3 h2 b{
     font-family: HeadlineR-HM;
@@ -119,7 +130,11 @@ main{
     padding:5% 0;
     text-align: center;
     margin-bottom:45px;
+    transition:1s;
+    opacity: 0;
+    transform:translateY(300px);
 }
+.sub2_4.active{opacity: 1; transform:translateY(0);}
 .sub2_4 h2{
     white-space:pre;
     font-size:1.2rem;
