@@ -92,7 +92,7 @@ header nav > .menu_bar:hover{
     display:block;
 
     position:absolute;
-    top:50%; right:5%;
+    top:50%; right:30%;
     transform:translateY(-50%);
     width:30px;
     height:30px;
@@ -1463,6 +1463,17 @@ main{
         color:black;
         border-bottom:1px solid #777;
         font-size: 1rem;
+    }
+    .h-1 li::after{
+        content:'';
+        display:block;
+    
+        position:absolute;
+        top:50%; right:18%;
+        transform:translateY(-50%);
+        width:30px;
+        height:30px;
+        background:url(../img/main-icon_1-1.png) no-repeat center center;
     }
 
 
