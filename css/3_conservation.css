@@ -18,8 +18,13 @@ main{margin-top:8vw;}
     padding:5% 0;
     text-align: center;
     background-color: white;
+    animation:a1 2s forwards;
 }
 
+@keyframes a1{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
 .sub3_1 h2 b{
     font-family: HeadlineR-HM;
     font-size: 1.8rem;
@@ -51,6 +56,12 @@ main{margin-top:8vw;}
     padding:5% 0 15% 0;
 
     position:relative;
+    animation:a1 2s forwards;
+}
+
+@keyframes a1{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .sub3_2 .txt3_1{
@@ -119,7 +130,12 @@ main{margin-top:8vw;}
     background-color:white;
     padding:140px 0;
     position:relative;
+    transition:1s;
+    opacity: 0;
+    transform:translateY(300px);
 }
+.sub3_4.active{opacity: 1; transform:translateY(0);}
+
 .sub3_41{
     width:60%; height:300px;
     margin:0 auto;
@@ -223,7 +239,11 @@ main{margin-top:8vw;}
     text-align: center;
     background-color: white;
     margin:45px 0;
+    transition:1s;
+    opacity: 0;
+    transform:translateY(300px);
 }
+.sub3_5.active{opacity: 1; transform:translateY(0);}
 
 .sub3_5 h2 b{
     font-family: HeadlineR-HM;
@@ -255,7 +275,11 @@ main{margin-top:8vw;}
     text-align: center;
     padding:120px 0;
     margin-bottom:45px;
+    transition:1s;
+    opacity: 0;
+    transform:translateY(300px);
 }
+.sub3_6.active{opacity: 1; transform:translateY(0);}
 
 video{
     margin:0 auto;

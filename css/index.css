@@ -27,14 +27,7 @@ main{margin-top:6vw;}
     position:absolute;
     left:20%; top:45%; transform: translateY(-50%);
 }
-.m-1 figure:hover figcaption{
-    animation:a2 4s forwards;
-}
 
-@keyframes a2{
-    0%{ opacity:0;}
-    100%{ opacity:1;}
-}
 .m-1 figure figcaption b{
     text-align:left;
 
@@ -238,7 +231,6 @@ main{margin-top:6vw;}
     position:absolute;
     bottom:5%;left:50%;
     transform:translateX(-50%); 
-       
     
     font-size: 0.6rem;
     font-weight: bold;
@@ -483,7 +475,6 @@ main{margin-top:6vw;}
         width:100%;
         margin:0 auto;
         position:relative; 
-       
     }
     .m-1 figure .img-1{
         width:100%;
@@ -493,14 +484,14 @@ main{margin-top:6vw;}
         position:absolute;
         left:20%; top:45%; transform: translateY(-50%);
     }
-    .m-1 figure:hover figcaption{
+    /* .m-1 figure:hover figcaption{
         animation:a2 4s forwards;
     }
     
     @keyframes a2{
         0%{ opacity:0;}
         100%{ opacity:1;}
-    }
+    } */
     .m-1 figure figcaption b{
         text-align:left;
     
@@ -527,7 +518,7 @@ main{margin-top:6vw;}
     
     .m-1 figure figcaption a{
         font-size: 0.3rem;
-        font-weight: normal;
+        font-weight: bold;
         line-height: 1.5;
         text-align:center;
         color: #000000;
@@ -706,7 +697,6 @@ main{margin-top:6vw;}
         bottom:5%;left:50%;
         transform:translateX(-50%); 
 
-           
         font-size: 0.5rem;
         font-weight: bold;
         line-height: 1.5;
@@ -714,7 +704,7 @@ main{margin-top:6vw;}
         color: #000000;
         background-color: #fff;
         border-radius: 50px;
-        padding:10px 20px;
+        padding:8px 18px;
         }
         
     .m-2 ul li figcaption a:hover{

@@ -21,7 +21,7 @@ let s = 0;
 for(let i=0;i<elBtnGo.length;i++){
 elBtnGo[i].addEventListener('click',function(){
     if(i==1){
-        if(s>-5){s--;}
+        if(s>-3){s--;}
     }else{
         if(s<0){s++;}
     }
@@ -112,3 +112,22 @@ elPopup8.addEventListener('click',function(){
     if(event.target.nodeName =='A'){
         elPopup8.classList.remove('open8');}
 })
+
+//scroll event
+
+//스크롤 내리면 글 올라오며 등장
+window.addEventListener('scroll',function(){
+    const elM = document.querySelectorAll('.elM');
+    
+    for(let i=0;i<elM.length;i++){
+            let elHei = elM[i].offsetTop;
+            let winHei = window.innerHeight;
+            
+        if(elHei-winHei <= window.scrollY){
+            elM[i].classList.add('active');
+        }
+    }
+})
+
+
+//matchMedia

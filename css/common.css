@@ -32,7 +32,7 @@ header{
     z-index:99;
 
 }
-header > a{transform:scale(0.9);width:10%;}
+header > a{transform:scale(0.5);width:10%;}
 nav{width:40%;}
 nav> a{margin-left:3%; font-size:0.9rem; font-weight:normal;}
 
@@ -281,7 +281,7 @@ main{
 }
 
 @media (min-width:1280px) and (max-width:1546px){
-    /* *{font-size:19.5px;} */
+    *{font-size:16px;}
     header{
         position:fixed;
         top:0;
@@ -298,7 +298,7 @@ main{
         z-index:99;
     
     }
-    header > a{transform:scale(0.9);width:10%;}
+    header > a{transform:scale(0.6);width:10%;}
     nav{width:40%;}
     nav> a{margin-left:3%; font-size:0.9rem; font-weight:normal;}
     
@@ -318,6 +318,22 @@ main{
         margin-top:162px;
     }
     
+/* top */
+.top{
+    position:fixed;
+    bottom:5%; right:5%;
+    font-size: 0;
+    width:60px; height:60px;
+    border-radius: 30px;
+    transform:scale(0.6);
+    transition:1s;
+    background:url(../img/btn-top2.png) no-repeat center center;
+    display:none;
+}
+.top.active{display:block;}
+.top.active:hover{
+    transform:scale(0.7);
+}
     
     /* footer */
     
@@ -332,7 +348,7 @@ main{
         justify-content: space-between;
         margin:0 auto;
     }
-    .footer-1 a{transform:scale(0.9);width:10%;}
+    .footer-1 a{transform:scale(0.6);width:10%;}
     
     .footer-1 nav{width:40%;text-align: center;}
     .footer-1 nav a{font-size:0.9rem; font-weight:normal;color:white;}
