@@ -165,6 +165,7 @@ main{
     padding-left:5px;
 
     position:relative;
+    cursor: pointer;
 }
 
 .language .language-1::after{
@@ -219,7 +220,8 @@ main{
     font-size:0.8rem;
     padding-left:5px;
 
-    position:relative;   
+    position:relative;  
+    cursor: pointer; 
 }
 
 .familysites .familysites-1::after{
@@ -348,7 +350,7 @@ main{
         justify-content: space-between;
         margin:0 auto;
     }
-    .footer-1 a{transform:scale(0.6);width:10%;}
+    .footer-1 a{transform:scale(0.7);width:10%;}
     
     .footer-1 nav{width:40%;text-align: center;}
     .footer-1 nav a{font-size:0.9rem; font-weight:normal;color:white;}
@@ -373,10 +375,8 @@ main{
     
     .footer-2 .footer-box{
         margin-right:0;
-    
-    
-        width:32%;
-        height:30px;  
+        width:25%;
+        height:25px;  
         display:flex;
         justify-content: space-between;
         align-items: center;
@@ -468,7 +468,6 @@ main{
     }
     
     .familysites .familysites-1 ul{
-        border:1px solid #000;
         background-color:#fff;
         color:#000;
         font-size:0.8rem;
@@ -479,10 +478,12 @@ main{
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        display:none;
         
         position:absolute;
         bottom:105%;
-        left:0;    }
+        left:0;    
+       }
     
     
     .familysites .familysites-1 ul li{display:none;width:100%;text-align:center;}
@@ -511,7 +512,7 @@ main{
 
 }
 @media (min-width:1025px) and (max-width:1279px){
-    *{font-size:16px;}
+    *{font-size:14px;}
     header{
         position:fixed;
         top:0;
@@ -564,10 +565,10 @@ main{
         justify-content: space-between;
         margin:0 auto;
     }
-    .footer-1 a{transform:scale(0.9);width:10%;}
+    .footer-1 a{transform:scale(0.6);width:10%;}
     
     .footer-1 nav{width:40%;text-align: center;}
-    .footer-1 nav a{font-size:0.9rem; font-weight:normal;color:white;}
+    .footer-1 nav a{font-size:1rem; font-weight:normal;color:white;}
     
     .footer-2{
         width:80%;
@@ -581,7 +582,7 @@ main{
     
     }
     .footer-2 p{
-        font-size: 0.8rem;
+        font-size:1rem;
         font-weight: normal;
         color:white;
         padding-left: 12px;
@@ -591,8 +592,8 @@ main{
         margin-right:0;
   
     
-        width:32%;
-        height:30px;  
+        width:30%;
+        height:25px;  
         display:flex;
         justify-content: space-between;
         align-items: center;
@@ -608,7 +609,7 @@ main{
      
         background-color:#000;
         color:#fff;
-        font-size:0.8rem;
+        font-size:1rem;
         padding-left:5px;
 
         position:relative;
@@ -616,7 +617,7 @@ main{
     .language .language-1 ul{
         background-color:#fff;
         color:#000;
-        font-size:0.8rem;
+        font-size:1rem;
         padding:0;
         width:100%;
 
@@ -661,7 +662,7 @@ main{
         border:1px solid white;
         background-color:#000;
         color:#fff;
-        font-size:0.8rem;
+        font-size:1rem;
         padding-left:5px;
 
         position:relative;
@@ -684,7 +685,7 @@ main{
         border:1px solid #000;
         background-color:#fff;
         color:#000;
-        font-size:0.8rem;
+        font-size:1rem;
         padding:0;
         width:100%;
 
@@ -716,10 +717,11 @@ main{
         width:60px; height:60px;
         border-radius: 30px;
         transition:1s;
+        transform:scale(0.7);
         background:url(../img/btn-top2.png) no-repeat center center;
     }
     .top:hover{
-        transform:scale(1.2);
+        transform:scale(0.8);
     }
 
 }
@@ -1813,9 +1815,11 @@ main{
         border-radius: 30px;
         transition:1s;
         background:url(../img/btn-top3.png) no-repeat center center;
+        opacity: 0;
     }
     .top:hover{
         transform:scale(1.2);
+        opacity: 0;
     }
 
 }
