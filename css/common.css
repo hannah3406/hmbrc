@@ -32,7 +32,7 @@ header{
     z-index:99;
 
 }
-header > a{transform:scale(0.5);width:10%;}
+header > a{transform:scale(0.9);width:10%;}
 nav{width:40%;}
 nav> a{margin-left:3%; font-size:0.9rem; font-weight:normal;}
 
