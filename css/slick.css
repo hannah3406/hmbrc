@@ -21,7 +21,6 @@
 .slick-list
 {
     position: relative;
-
     display: block;
     overflow: hidden;
 
@@ -157,7 +156,8 @@
     left:50%; bottom:10%;
     z-index:2;
     transform: translateX(-50%);
-    list-style: none;margin:0;padding:0;
+    list-style: none;
+    margin:0;padding:0;
 }
 .slick-dots li{display:inline-block}
 .slick-dots li button{
