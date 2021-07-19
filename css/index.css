@@ -522,7 +522,7 @@ main{margin-top:6vw;}
     }
     
     .m-1 figure figcaption a{
-        font-size: 0.3rem;
+        font-size: 0.6rem;
         font-weight: bold;
         line-height: 1.5;
         text-align:center;
@@ -821,9 +821,18 @@ main{margin-top:6vw;}
     
     }
     .m-3 ul .m-3_txt{
-        padding-top:3%;
+        padding-top:0;
+        position:relative;
         text-align: center;
     
+    }
+    .m-3 ul .m-3_txt div{
+        position:absolute;
+        left:0%;
+        top:50%;
+        transform:translateY(-50%);
+        width:100%;
+
     }
     
     .m-3 ul .m-3_txt h2{
@@ -1287,9 +1296,18 @@ main{margin-top:6vw;}
     
     }
     .m-3 ul .m-3_txt{
-        padding-top:3%;
+        padding-top:0;
+        position:relative;
         text-align: center;
     
+    }
+    .m-3 ul .m-3_txt div{
+        position:absolute;
+        left:0%;
+        top:50%;
+        transform:translateY(-50%);
+        width:100%;
+
     }
     
     .m-3 ul .m-3_txt h2{
