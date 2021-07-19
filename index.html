@@ -52,7 +52,7 @@
         </nav>
     </header>
 <main>
-    <section class="regular slider">
+    <section class="regular slider con">
         <div class="m-1">
             <figure>
                 <img class="img-1" src="img/main/main_visual_13.png" alt="main-visual_2">
@@ -100,7 +100,7 @@
         </div>
       </section>
 
-    <div class="m-2 elM">
+    <div class="m-2 elM con">
         <h1>구조치료 실적</h1>
         <div class="m-21">
             <ul>
@@ -157,7 +157,7 @@
             </ul>
         </div>
     </div>
-    <div class="m-3 elM">
+    <div class="m-3 elM con">
         <h1>대상생물</h1>
         <div class="m-31">
             <ul>
@@ -249,7 +249,7 @@
             </ul>
         </div>
     </div>
-    <div class="m-4 elM">
+    <div class="m-4 elM con">
         <figure>
             <img src="img/main-아쿠아리스트수행연구_1.png" alt="main-아쿠아리스트수행연구">
             <div class="m-41">
@@ -278,7 +278,7 @@
 </main>
 
 
-<div class="footer">
+<div class="footer con">
     <div class="footer-1">
         <a href="index.html"><img src="img/logo_centerwhite.png" alt="Logo"></a>
         <nav>
@@ -332,10 +332,35 @@
         autoplaySpeed:2000,
         speed:1000
     });
-
 </script>
+<!-- wheel event
+<script>
+    let delta,move,num=0,len=$('.con').length;
+    $(window).on('mousewheel DOMMouseScroll',function(e){
+        delta = e.originalEvent.wheelDelta || e.originalEvent.detail * -60;  
+        clearTimeout(move);
+            move = setTimeout(function(){
+            if(delta<0){
+                //down
+                if(num<len-1)num++;
+            }else{
+                if(num>0)num--;
+            }
+            wheel();
+        },100);
+    })
+
+    function wheel(){
+        $('html,body').animate({
+                scrollTop : $(window).height() * num
+            });
+    }
+    </script> -->
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/common.js"></script>
 <script src="js/index.js"></script>
+
+
 
 </body>
 </html>

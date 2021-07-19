@@ -198,6 +198,7 @@ main{
     left:0;   
     display:none; 
 }
+.language .language-1 ul.active{display:block;}
 
 .language .language-1 ul li{width:100%;text-align:center;}
 
@@ -254,9 +255,12 @@ main{
     bottom:105%;
     left:0;   
 }
+.familysites .familysites-1 ul.active{
+    display:block;
+}
 
 
-.familysites .familysites-1 ul li{display:none;width:100%;text-align:center;}
+.familysites .familysites-1 ul li{width:100%;text-align:center;}
 
 .familysites .familysites-1 ul li:hover{
     background-color:#000;

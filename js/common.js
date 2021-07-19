@@ -23,3 +23,24 @@ window.addEventListener('scroll',function(){
 	}
 });
 
+
+//footer Language버튼
+const selLag = document.querySelector('.language-1');
+const elLag = document.querySelector('.language-1 ul');
+
+selLag.addEventListener('click',function(){
+	elLag.classList.toggle('active');
+});
+
+
+//footer Family Sites버튼
+const selFm = document.querySelector('.familysites-1');
+const elFm = document.querySelector('.familysites-1 ul');
+
+selFm.addEventListener('click',function(){
+	elFm.classList.toggle('active');
+});
+
+
+
+
