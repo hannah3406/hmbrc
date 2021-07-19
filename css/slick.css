@@ -139,11 +139,13 @@
 }
 .slick-prev{
     left:1%; 
+    z-index:90;
     background:url('../img/btn-prev-2.png') no-repeat center center;
 }
 
 .slick-next{
     right:1%;
+    z-index:90;
     background:url('../img/btn-next-2.png') no-repeat center center;
 
 }
@@ -180,6 +182,9 @@
     width:100%; height:100%;
 }
 .slick-list img{width:100%; height:100%;}
+
+
+
 @media (min-width:767px) and (max-width:1024px){
     .slider{
         width:100%; height:60vh;
