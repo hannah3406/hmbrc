@@ -486,7 +486,7 @@ main{margin-top:6vw;}
     }
     .m-1 figure figcaption{
         position:absolute;
-        left:20%; top:45%; transform: translateY(-50%);
+        left:15%; top:45%; transform: translateY(-50%);
     }
     /* .m-1 figure:hover figcaption{
         animation:a2 4s forwards;
@@ -955,7 +955,7 @@ main{margin-top:9vw;}
 }
 .m-1 figure figcaption{
     position:absolute;
-    left:10%; top:30%; transform: translateY(-50%);
+    left:15%; top:45%; transform: translateY(-50%);
 }
 .m-1 figure:hover figcaption{
     animation:a2 4s forwards;
@@ -970,7 +970,7 @@ main{margin-top:9vw;}
     text-align:left;
     font-family:Yeon Sung;
 
-    font-size:2rem;
+    font-size:2.5rem;
     font-weight: normal;
     line-height: 1.5;
     color: #fff;
@@ -982,11 +982,11 @@ main{margin-top:9vw;}
     font-weight: bold;
     line-height: 1.5;
     margin:30px 0;
-    font-size:1.4rem;
+    font-size:1.6rem;
 }
 .m-1 figure p small{
     color:#fff; display:block;
-    font-size:0.9rem; font-weight: normal;
+    font-size:1.2rem; font-weight: normal;
     margin:20px 0;
 }
 
@@ -1429,15 +1429,16 @@ main{margin-top:9vw;}
     }
     .m-1 figure figcaption{
         position:absolute;
-        left:15%; top:40%; transform: translateY(-50%);
+        left:10%; top:40%; transform: translateY(-50%);
     }
     .m-1 figure figcaption b{
         text-align:left;    
-        font-weight: bold;
-        line-height: 0.56;
+        font-weight: normal;
+        line-height: 1.5;
         color: #fff;
         margin-bottom:20px;
         padding:0;
+        font-size:2rem;
     }
     
     .m-1 figure p{
@@ -1456,7 +1457,6 @@ main{margin-top:9vw;}
     .m-1 figure figcaption a{
         display:none;
     }
-    
     .m-1 figure figcaption a:hover{
         background-color:#2f3792;
         color:white;
@@ -1822,12 +1822,12 @@ main{margin-top:9vw;}
     }
     .m-1 figure figcaption{
         position:absolute;
-        left:15%; top:40%; transform: translateY(-50%);
+        left:6%; top:50%; transform: translateY(-50%);
     }
     .m-1 figure figcaption b{
         text-align:left;    
-        font-weight: bold;
-        line-height: 0.56;
+        font-weight: normal;
+        line-height: 1.5;
         color: #fff;
         margin-bottom:20px;
         padding:0;
@@ -1845,7 +1845,7 @@ main{margin-top:9vw;}
         color:#fff; display:block;
         font-weight: normal;
         padding:0;
-        margin:5px 0;
+        margin:10px 0;
     }
     
     .m-1 figure figcaption a{

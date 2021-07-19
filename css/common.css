@@ -511,7 +511,7 @@ main{
 
 }
 @media (min-width:1025px) and (max-width:1279px){
-    *{font-size:19.5px;}
+    *{font-size:16px;}
     header{
         position:fixed;
         top:0;
@@ -530,7 +530,7 @@ main{
     }
     header > a{transform:scale(0.6);width:10%;}
     nav{width:40%;}
-    nav> a{margin-left:3%; font-size:0.8rem; font-weight:normal;}
+    nav> a{margin-left:3%; font-size:1rem; font-weight:normal;}
     
     /* hover */
     
@@ -724,8 +724,8 @@ main{
 
 }
 @media (min-width:767px) and (max-width:1024px){
-    *{font-size:16px;}
-    header{height:8vw;}
+    *{font-size:14px;}
+    header{height:9vw;}
     header > a{transform:scale(0.65);width:30%;}
     header > nav{width:10%;height:100%; position:relative;}
     header > nav> a{margin:0; font-size:0.9rem; font-weight:normal;display:none;}
@@ -775,7 +775,7 @@ main{
 
         width: 50px;
         height: 44px;
-        transform:scale(0.5) translateY(-50%);
+        transform:scale(0.4) translateY(-50%);
     }
 
     .menu-trigger span {

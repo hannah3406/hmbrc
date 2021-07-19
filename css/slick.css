@@ -180,4 +180,25 @@
     width:100%; height:100%;
 }
 .slick-list img{width:100%; height:100%;}
+@media (min-width:767px) and (max-width:1024px){
+    .slider{
+        width:100%; height:60vh;
+        position:relative;
+        margin:0; padding:0;
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+    .slider{
+        width:100%; height:60vh;
+        position:relative;
+        margin:0; padding:0;
+    }
+}
+@media (min-width:360px) and (max-width:480px){
+    .slider{
+        width:100%; height:50vh;
+        position:relative;
+        margin:0; padding:0;
+    }
+}
 
