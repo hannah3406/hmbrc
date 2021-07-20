@@ -5,7 +5,6 @@
 header nav > a:nth-child(2){
     color:#2f3972;
     font-weight: bold;
-    font-size: 0.9rem;
     border-bottom:2px solid #2f3972;
 }
 main{
@@ -15,7 +14,7 @@ main{
 /* .sub2_1 */
 .sub2_1{
     width:100%;
-    padding:5% 0;
+    padding:50px 0;
     text-align: center;
     background-color: white;
     animation:a1 2s forwards;
@@ -108,9 +107,9 @@ main{
     position:relative;
     transition:1s;
     opacity: 0;
-    transform:translateY(300px);
+    transform:translateX(-10%);
 }
-.sub2_3.active{opacity: 1; transform:translateY(0);}
+.sub2_3.active{opacity: 1; transform:translateX(0);}
 
 .sub2_3 h2 b{
     font-family: HeadlineR-HM;
@@ -132,9 +131,9 @@ main{
     margin-bottom:45px;
     transition:1s;
     opacity: 0;
-    transform:translateY(300px);
+    transform:translateX(10%);
 }
-.sub2_4.active{opacity: 1; transform:translateY(0);}
+.sub2_4.active{opacity: 1; transform:translateX(0);}
 .sub2_4 h2{
     white-space:pre;
     font-size:1.2rem;
