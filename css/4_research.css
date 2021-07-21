@@ -7,13 +7,14 @@ header nav > a:nth-child(4){
     font-weight: bold;
     border-bottom:2px solid #2f3972;
 }
+main{margin-top:7vw;}
 
 
 .sub4_1{
     width:100%;
     padding:50px 0;
     text-align: center;
-    margin:45px auto;
+    margin:25px auto;
     background-color: white;
 }
 .sub4_1 h2{
@@ -85,13 +86,12 @@ header nav > a:nth-child(4){
 /* .sub4_3 */
 
 .sub4_3{
-    margin:45px 0;
+    margin:25px 0;
     width:100%;
     padding:10% 0;
     background-color: white;
 }
 .sub4_31{
-    background-color: #db9232;
     width:100%;
     height:70px;
 

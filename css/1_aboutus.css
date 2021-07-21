@@ -9,7 +9,7 @@ header nav > a:nth-child(1){
     border-bottom:2px solid #2f3972;
 }
 main{
-    margin-top:8vw;
+    margin-top:7vw;
 }
 .sub1_1{
     width:100%;
@@ -18,7 +18,7 @@ main{
     margin:0 auto;
     background-color: white;
     position:relative;
-    margin-top:45px;
+    margin-top:25px;
     animation:a1 2s forwards;
 }
 
@@ -42,6 +42,7 @@ main{
 .sub1_1 p{
     padding:0px;
     margin:0;
+
 }
 .sub1_1 p b{
     color:#2f3972;
@@ -51,7 +52,7 @@ main{
 .sub1_2{
     width:80%;
     background-color:white;
-    margin:45px auto;
+    margin:25px auto;
     padding:5% 5% 15% 5%;
 
     position:relative;
@@ -60,7 +61,7 @@ main{
 
 
 .sub1_2 .txt2_1{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
@@ -92,7 +93,7 @@ main{
     text-align: center;
     margin:0 auto;
     background-color: white;
-    margin-bottom:45px;
+    margin-bottom:25px;
 
     position:relative;
     transition:1s;
@@ -137,7 +138,7 @@ main{
 }
 
 .sub1_4 ul{
-    width:70%;
+    width:60%;
     margin:0 auto;
 
     display:flex;
@@ -146,7 +147,7 @@ main{
 }
 
 .sub1_4 li{
-    width:330px; height:290px;
+    width:290px; height:250px;
     border:1px solid #777777;
     border-radius: 15px;
     margin:5px;
@@ -158,13 +159,13 @@ main{
 
 .sub1_4 li h2{
     text-align: center;
-    font-size:1rem;
+    font-size:1.1rem;
     font-weight: bold;
 }
 
 .sub1_4 li p{
     width:90%;
-    font-size:0.9rem;
+    font-size:1rem;
     font-weight: normal;
     text-align:left;
     padding-top:5%;
@@ -173,8 +174,9 @@ main{
 
 .sub1_4 li img{
     position:absolute;
-    right:9%;
-    bottom:9%;
+    right:5%;
+    bottom:5%;
+    transform:scale(0.7);
 }
 
 .sub1_4 li:hover{
@@ -186,7 +188,7 @@ main{
     width:100%;
     padding:5%;
     text-align: center;
-    margin:45px auto;
+    margin:25px auto;
     background-color: white;
     transition:1s;
     opacity: 0;
@@ -203,7 +205,7 @@ main{
 }
 
 /* sub1_6 */
-.sub1_6{padding-bottom:45px;    transition:1s;
+.sub1_6{padding-bottom:25px;    transition:1s;
     opacity: 0;
     transform:translateX(10%);
 }
@@ -241,14 +243,14 @@ main{
 }
 .sub1_6 .txt2_3 b{
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight:bold;
 }
 
 .sub1_6 .txt2_3 p{
     padding:5% 0;
     line-height: 1.42;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .sub1_6 .txt2_3 a{
@@ -276,7 +278,7 @@ main{
     position:fixed;
     top:0; left:0;
 
-    padding-top:2%;
+    padding-top:1%;
     width:100%; height:100%;
     background-color:rgba(0,0,0,0.7);
     z-index: 100;
@@ -288,7 +290,7 @@ main{
 }
 
 .map-1 article{
-    width:55%; height:75vh;
+    width:65%; height:85vh;
     background-color:white;
     margin:5% auto;
     padding:3%;
@@ -312,7 +314,7 @@ main{
    
 }
 .map-1 .map p{
-    width:40%;
+    width:38%;
     padding-bottom:10%;
 }
 .map-1 .map figure{
@@ -322,10 +324,10 @@ main{
     width:100%;
 }
 
-.map-1 .map p{font-size: 0.5rem;}
-.map-1 .map b{font-size:0.8rem;}
+.map-1 .map p{font-size: 0.9rem;}
+.map-1 .map b{font-size:1rem;}
 .map-1 .map small{
-    font-size:0.7rem;
+    font-size: 0.9rem;
     line-height: 1.5;
 }
 
@@ -346,18 +348,19 @@ main{
     position:fixed;
     top:0; left:0;
 
-    padding-top:2%;
+    padding-top:1%;
     width:100%; height:100%;
     background-color:rgba(0,0,0,0.7);
     z-index: 100;
     display:none;
 }
+
 .map-22{
     display:block;
 }
 
 .map-2 article{
-    width:55%; height:75vh;
+    width:65%; height:85vh;
     background-color:white;
     margin:5% auto;
     padding:3%;
@@ -378,10 +381,10 @@ main{
     justify-content: space-around;
     /* background-color:  #f6f7f9; */
     padding:2%;
+   
 }
 .map-2 .map p{
-    width:40%;
-    font-size: 0.5rem;
+    width:38%;
     padding-bottom:10%;
 }
 .map-2 .map figure{
@@ -390,9 +393,11 @@ main{
 .map-2 .map figure img{
     width:100%;
 }
-.map-2 .map b{font-size:0.8rem;}
+
+.map-2 .map p{font-size: 0.9rem;}
+.map-2 .map b{font-size:1rem;}
 .map-2 .map small{
-    font-size:0.7rem;
+    font-size: 0.9rem;
     line-height: 1.5;
 }
 
@@ -407,31 +412,31 @@ main{
     cursor:pointer;
 }
 
-
 /* .map-3 */
 .map-3{
     position:fixed;
     top:0; left:0;
 
-
-    padding-top:2%;
+    padding-top:1%;
     width:100%; height:100%;
     background-color:rgba(0,0,0,0.7);
     z-index: 100;
     display:none;
 }
+
 .map-33{
     display:block;
 }
 
 .map-3 article{
-    width:55%; height:75vh;
+    width:65%; height:85vh;
     background-color:white;
     margin:5% auto;
     padding:3%;
     overflow: auto;
 
-    position:relative;}
+    position:relative;
+}
 .map-3 h2{
     text-align: left;
     padding-bottom:3%;
@@ -442,12 +447,13 @@ main{
 .map-3 .map{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     /* background-color:  #f6f7f9; */
     padding:2%;
+   
 }
 .map-3 .map p{
-    width:40%;
+    width:38%;
     padding-bottom:10%;
 }
 .map-3 .map figure{
@@ -457,10 +463,10 @@ main{
     width:100%;
 }
 
-.map-3 .map p{font-size: 0.5rem;}
-.map-3 .map b{font-size:0.8rem;}
+.map-3 .map p{font-size: 0.9rem;}
+.map-3 .map b{font-size:1rem;}
 .map-3 .map small{
-    font-size:0.7rem;
+    font-size: 0.9rem;
     line-height: 1.5;
 }
 
@@ -475,25 +481,24 @@ main{
     cursor:pointer;
 }
 
-
 /* m-4 */
 .map-4{
     position:fixed;
     top:0; left:0;
 
-
-    padding-top:2%;
+    padding-top:1%;
     width:100%; height:100%;
     background-color:rgba(0,0,0,0.7);
     z-index: 100;
     display:none;
 }
+
 .map-44{
     display:block;
 }
 
 .map-4 article{
-    width:55%; height:75vh;
+    width:65%; height:85vh;
     background-color:white;
     margin:5% auto;
     padding:3%;
@@ -511,12 +516,13 @@ main{
 .map-4 .map{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     /* background-color:  #f6f7f9; */
     padding:2%;
+   
 }
 .map-4 .map p{
-    width:40%;
+    width:36%;
     padding-bottom:10%;
 }
 .map-4 .map figure{
@@ -526,15 +532,14 @@ main{
     width:100%;
 }
 
-.map-4 .map p{font-size: 0.5rem;}
-.map-4 .map b{font-size:0.8rem;}
+.map-4 .map p{font-size: 0.9rem;}
+.map-4 .map b{font-size:1rem;}
 .map-4 .map small{
-    font-size:0.7rem;
+    font-size: 0.9rem;
     line-height: 1.5;
 }
 
 .map-4 a{
-    cursor:pointer;
     width:60px; height:60px;
     font-size:0;
     background:url(../img/btn-close.png) no-repeat center center;
@@ -542,6 +547,7 @@ main{
     top:0;
     right:0; 
     transform:scale(0.4);
+    cursor:pointer;
 }
 @media (min-width:1281px) and (max-width:1546px){
     /* sub1_1 */
@@ -560,7 +566,7 @@ main{
         margin:0 auto;
         background-color: white;
         position:relative;
-        margin-top:45px;
+        margin-top:25px;
     }
     
     .sub1_1 h2{
@@ -586,7 +592,7 @@ main{
     .sub1_2{
         width:80%;
         background-color:white;
-        margin:45px auto;
+        margin:25px auto;
         padding:5% 5% 15% 5%;
     
         position:relative;
@@ -625,7 +631,7 @@ main{
         text-align: center;
         margin:0 auto;
         background-color: white;
-        margin-bottom:45px;
+        margin-bottom:25px;
     
         position:relative;
     }
@@ -643,12 +649,15 @@ main{
     }
     
     /* sub1_4 */
-    
     .sub1_4{
         width:100%; 
         padding:5% 0;
         background-color: white;  
+        transition:1s;
+        opacity: 0;
+        transform:translateX(10%);
     }
+    .sub1_4.active{opacity: 1; transform:translateX(0%);}
     
     .sub1_4 h1{
         width:100%;
@@ -661,7 +670,7 @@ main{
     }
     
     .sub1_4 ul{
-        width:70%;
+        width:60%;
         margin:0 auto;
     
         display:flex;
@@ -670,7 +679,7 @@ main{
     }
     
     .sub1_4 li{
-        width:250px; height:210px;
+        width:290px; height:250px;
         border:1px solid #777777;
         border-radius: 15px;
         margin:5px;
@@ -679,54 +688,36 @@ main{
     
         position:relative;
     }
+    
     .sub1_4 li h2{
-        font-size:1rem;
-        font-weight: bold;
-        width:100%;
         text-align: center;
+        font-size:1.1rem;
+        font-weight: bold;
     }
     
     .sub1_4 li p{
-        width:95%;
-        margin:0 auto;
-        font-size:0.9rem;
+        width:90%;
+        font-size:1rem;
         font-weight: normal;
         text-align:left;
         padding-top:5%;
+        margin:0 auto;
     }
     
     .sub1_4 li img{
         position:absolute;
-        right:2%;
-        bottom:2%;
-        transform:scale(0.6);
+        right:5%;
+        bottom:5%;
+        transform:scale(0.7);
     }
     
     .sub1_4 li:hover{
         background-color:white;
-        border:3px solid #2f3972;
-    }
-    
-    
-    
-    .sub1_5{
-        width:100%;
-        padding:5%;
-        text-align: center;
-        margin:45px auto;
-        background-color: white;
-    }
-    .sub1_5 h2{
-        width:100%;
-        text-align: center;
-    
-        font-size: 1.25rem;
-        font-weight: bold;
-        color: #2f3972;
+        border:2px solid #2f3972;
     }
     
     /* sub1_6 */
-    .sub1_6{padding-bottom:45px;}
+    .sub1_6{padding-bottom:25px;}
     .sub1_6 ul{
         width:100%;
     }
@@ -746,7 +737,7 @@ main{
     }
     .sub1_6 li:nth-child(2n){background-color: white;}
     .sub1_6 li figure{
-        width:40%;
+        width:38%;
     }
     .sub1_6 li img{
         width:100%;
@@ -804,7 +795,7 @@ main{
     margin:0 auto;
     background-color: white;
     position:relative;
-    margin-top:45px;
+    margin-top:25px;
 }
 
 .sub1_1 h2{
@@ -830,7 +821,7 @@ main{
 .sub1_2{
     width:80%;
     background-color:white;
-    margin:45px auto;
+    margin:25px auto;
     padding:5% 5% 15% 5%;
 
     position:relative;
@@ -869,7 +860,7 @@ main{
     text-align: center;
     margin:0 auto;
     background-color: white;
-    margin-bottom:45px;
+    margin-bottom:25px;
 
     position:relative;
 }
@@ -957,7 +948,7 @@ main{
     width:100%;
     padding:5%;
     text-align: center;
-    margin:45px auto;
+    margin:25px auto;
     background-color: white;
 }
 .sub1_5 h2{
@@ -970,7 +961,7 @@ main{
 }
 
 /* sub1_6 */
-.sub1_6{padding-bottom:45px;}
+.sub1_6{padding-bottom:25px;}
 .sub1_6 ul{
     width:100%;
 }
@@ -1055,7 +1046,7 @@ main{
     margin:0 auto;
     background-color: white;
     position:relative;
-    margin-top:45px;
+    margin-top:25px;
 }
 
 .sub1_1 h2{
@@ -1318,7 +1309,7 @@ main{
    
 }
 .map-1 .map p{
-    width:40%;
+    width:38%;
 }
 .map-1 .map figure{
     width:58%;
@@ -1382,7 +1373,7 @@ main{
    
 }
 .map-2 .map p{
-    width:40%;
+    width:38%;
 }
 .map-2 .map figure{
     width:58%;
@@ -1446,7 +1437,7 @@ main{
    
 }
 .map-3 .map p{
-    width:40%;
+    width:38%;
 }
 .map-3 .map figure{
     width:58%;
@@ -1510,7 +1501,7 @@ main{
    
 }
 .map-4 .map p{
-    width:40%;
+    width:38%;
 }
 .map-4 .map figure{
     width:58%;
@@ -1560,7 +1551,7 @@ main{
     margin:0 auto;
     background-color: white;
     position:relative;
-    margin-top:45px;
+    margin-top:25px;
 }
 
 .sub1_1 h2{

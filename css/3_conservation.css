@@ -8,7 +8,7 @@ header nav > a:nth-child(3){
     border-bottom:2px solid #2f3972;
 }
 
-main{margin-top:8vw;}
+main{margin-top:7vw;}
 
 
 /* .sub3_1 */
@@ -51,7 +51,7 @@ main{margin-top:8vw;}
 .sub3_2{
     width:100%;
     background-color:white;
-    margin:45px auto;
+    margin:25px auto;
     padding:5% 0 15% 0;
 
     position:relative;
@@ -66,7 +66,7 @@ main{margin-top:8vw;}
 .sub3_2 .txt3_1{
     width:60%;
     margin:0 auto;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: normal;
     line-height: 1.5;
     letter-spacing: normal;
@@ -74,11 +74,11 @@ main{margin-top:8vw;}
     color: #010101;
 }
 .sub3_2 .txt3_1 b{
-    font-size:0.7rem;
+    font-size:0.9rem;
 }
 
 .sub3_2 a{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: bold;
     line-height: 1.5;
     text-align:center;
@@ -102,11 +102,11 @@ main{margin-top:8vw;}
 
 .sub3_3{
     width:100%;
-    padding:5% 0;
+    padding:50px 0;
     text-align: center;
     margin:0 auto;
     background-color: white;
-    margin-bottom:45px;
+    margin-bottom:25px;
 
     position:relative;
     transition:1s;
@@ -131,7 +131,7 @@ main{margin-top:8vw;}
 .sub3_4{
     width:100%;padding:55%;
     background-color:white;
-    padding:140px 0;
+    padding:120px 0;
     position:relative;
     transition:1s;
     opacity: 0;
@@ -241,7 +241,7 @@ main{margin-top:8vw;}
     padding:5% 0;
     text-align: center;
     background-color: white;
-    margin:45px 0;
+    margin:25px 0;
     transition:1s;
     opacity: 0;
     transform:translateX(10%);
@@ -277,7 +277,7 @@ main{margin-top:8vw;}
     background-color: white;
     text-align: center;
     padding:120px 0;
-    margin-bottom:45px;
+    margin-bottom:25px;
     transition:1s;
     opacity: 0;
     transform:translateX(-10%);
@@ -293,7 +293,7 @@ video{
 
 
 /* pop-up */
-.pop-1{
+.pop-1 {
     position:fixed;
     top:0; left:0;
 
@@ -304,15 +304,13 @@ video{
     z-index: 100;
     display:none;
 }
-
 .pop-1 article{
-    width:60%; height:85vh;
+    width:66%; height:85vh;
     background-color:white;
-    margin:3% auto;
     padding:1%;
     position:relative;
     overflow:auto;
-
+    margin:0 auto;
 }
 
 .pop-1 h2{
@@ -322,12 +320,16 @@ video{
     padding-left:2%;
     padding-bottom:2%;
 }
-
+.pop-1 p b{
+    font-size: 1.2rem;
+    margin-bottom:5%;
+}
 .pop-1 p{
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin:0 auto;
     background-color: #f6f7f9;
-    padding:3%;
+    padding:2% 7% 7% 7%;
+    line-height: 1.8;
 }
 
 .pop-1 a{
@@ -338,8 +340,9 @@ video{
     top:0;
     right:0; 
     transform:scale(0.4);
+    cursor:pointer;
 }
-.pop-1.open1{display:block;}
+.pop-1.open1{display:block; width:100%;}
 /* pop-2 */
 
 .pop-2{
