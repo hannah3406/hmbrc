@@ -52,12 +52,12 @@ main{margin-top:6vw;}
 }
 .m-1 figure p small{
     color:#fff; display:block;
-    font-size:0.9rem; font-weight: normal;
+    font-size:1rem; font-weight: normal;
     margin:20px 0;
 }
 
 .m-1 figure figcaption a{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: bold;
     line-height: 1.5;
     text-align:center;
@@ -224,7 +224,7 @@ main{margin-top:6vw;}
 
 .m-2 ul li figcaption p{
     width:75%;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: normal;
     text-align: left;
     color: #ffffff;
@@ -239,7 +239,7 @@ main{margin-top:6vw;}
     bottom:5%;left:50%;
     transform:translateX(-50%); 
     
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: bold;
     line-height: 1.5;
     text-align:center;
@@ -450,14 +450,14 @@ main{margin-top:6vw;}
     width:80%;
     text-align:left;
     color: #ffffff;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: normal;
     line-height: 1.5;
     padding-bottom:40px;
 }
 
 .m-4 figure article a{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: bold;
     line-height: 1.5;
     text-align:center;
@@ -695,7 +695,7 @@ main{margin-top:6vw;}
     
     .m-2 ul li figcaption p{
         width:75%;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-weight: normal;
         text-align: left;
         color: #ffffff;
