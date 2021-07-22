@@ -78,7 +78,7 @@ main{margin-top:7vw;}
 .sub4_21 p{
     width:52%;
     line-height: 1.7;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color:#555;
 
 }
@@ -231,14 +231,14 @@ main{margin-top:7vw;}
     color:white;
 }
 
-@media (min-width:1025px) and (max-width:1600px){
+@media (min-width:1025px) and (max-width:1546px){
     main{
         margin-top:8vw;
     }
 
    .sub4_1{
         width:100%;
-        padding:5% 0;
+        padding:50px 0;
         text-align: center;
         margin:20px auto;
         background-color: white;
@@ -262,7 +262,7 @@ main{margin-top:7vw;}
     .sub4_2 li{
         width:90%;
         margin:0 auto;
-        padding:5% 0;
+        padding:50px 0;
     }
     .sub4_2 li:nth-child(2){
         background-color:#f6f7f9;
@@ -276,7 +276,7 @@ main{margin-top:7vw;}
     
     .txt4_1 h2{
         font-size:1.25rem;
-        padding-bottom:5%;
+        padding-bottom:50px;
         text-align:center;
     }
     .txt4_1 b{    
@@ -285,16 +285,17 @@ main{margin-top:7vw;}
         text-align:left;
     }
     .sub4_21{
-        width:90%;
-        margin:3% auto;    
+        width:80%;
+        margin:0 auto;    
        
         display:flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     .sub4_21 figure{
       width:46%;
       text-align: center;
+      transform:scale(0.6);
     }
     .sub4_21 figure img{
       
@@ -302,9 +303,9 @@ main{margin-top:7vw;}
         padding:6% 0;
     }
     .sub4_21 p{
-        width:52%;
+        width:48%;
         line-height: 1.7;
-        font-size: 0.9rem;
+        font-size: 1rem;
         color:#555;
      
     
@@ -340,7 +341,7 @@ main{margin-top:7vw;}
     text-align:center;
     color:white;
     display:block;
-    padding:10px 0;
+    padding:15px 0;
 }
 .sub4_31 a:nth-of-type(1){
     background-color: white;
@@ -352,9 +353,9 @@ main{margin-top:7vw;}
     /* .sub4_4 */
 
 .sub4_4{
-    width:90%;
+    width:80%;
     margin:0 auto;
-    padding:10% 0;
+    padding:100px 0;
 }
 .sub4_4 h2{
     display:block;
@@ -363,7 +364,7 @@ main{margin-top:7vw;}
     margin:0 auto;
     font-size:1.25rem;
     color:#2f3972;
-    padding-bottom:5%;
+    padding-bottom:40px;
 }
 
 .sub4_4 p{
@@ -373,14 +374,14 @@ main{margin-top:7vw;}
 }
 
 .board{
-    width:90%; 
+    width:80%; 
     margin:0 auto; 
     border-collapse:collapse;
 }
 
 .board caption{
     text-align:left;
-    padding:0 0 5% 0px;
+    padding:0 0 50px 0px;
     font-size:1.25rem;
     color:#2f3972;
     font-weight:bold;
