@@ -202,6 +202,7 @@ main{margin-top:7vw;}
     border-width:1px 0 1px;
     font-size:0.9rem;
     color:#555;
+    cursor: pointer;
 }
 .board th{
     color:#2f3972;
@@ -214,6 +215,9 @@ main{margin-top:7vw;}
 }
 
 .board tbody td:nth-child(2){text-align: left;}
+.board tbody td:nth-child(2):hover{
+    color:#2f3972; font-weight:bold;
+}
 .board tbody th:nth-child(1){width:60px;}
 .board tbody th:nth-child(1){width:120px;}
 
