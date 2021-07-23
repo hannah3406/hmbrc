@@ -21,7 +21,7 @@ let s = 0;
 for(let i=0;i<elBtnGo.length;i++){
 elBtnGo[i].addEventListener('click',function(){
     if(i==1){
-        if(s>-3){s--;}
+        if(s>-4){s--;}
     }else{
         if(s<0){s++;}
     }

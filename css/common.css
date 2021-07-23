@@ -528,7 +528,7 @@ main{
 
 }
 @media (min-width:1025px) and (max-width:1279px){
-    *{font-size:15px;}
+    *{font-size:14px;}
     header{
         position:fixed;
         top:0;
@@ -550,9 +550,9 @@ main{
         align-items:center;
     
     }
-    .head > a{transform:scale(0.7);width:10%;}
+    .head > a{transform:scale(0.6);width:10%;}
     nav{width:40%;}
-    nav> a{margin-left:3%; font-size:1.2rem; font-weight:normal;}
+    nav> a{margin-left:3%; font-size:1rem; font-weight:normal;}
     
     /* hover */
     
