@@ -152,7 +152,7 @@ main{margin-top:6vw;}
     background-color:white;
     padding-bottom:100px;
     transition:2s;
-    opacity: 0;
+    opacity: 1;
 }
 .m-2.active{opacity: 1;}
 
