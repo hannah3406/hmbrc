@@ -21,7 +21,7 @@ let s = 0;
 for(let i=0;i<elBtnGo.length;i++){
 elBtnGo[i].addEventListener('click',function(){
     if(i==1){
-        if(s>-4){s--;}
+        if(s>-6){s--;}
     }else{
         if(s<0){s++;}
     }
@@ -29,92 +29,25 @@ elBtnGo[i].addEventListener('click',function(){
     elUl.style = `transform:translateX(${x1}px)`;
 });
 };
-//pop-2
-   //열기
-btnPopup2.addEventListener('click',function(){
-    elPopup2.classList.add('open2');
-})
 
-   //닫기
-elPopup2.addEventListener('click',function(){
-    if(event.target.nodeName =='A'){
-        elPopup2.classList.remove('open2');}
-})
-
-//pop-3
-   //열기
-   btnPopup3.addEventListener('click',function(){
-    elPopup3.classList.add('open3');
-})
-
-   //닫기
-elPopup3.addEventListener('click',function(){
-    if(event.target.nodeName =='A'){
-        elPopup3.classList.remove('open3');}
-})
-
-//pop-4
-   //열기
-   btnPopup4.addEventListener('click',function(){
-    elPopup4.classList.add('open4');
-})
-
-   //닫기
-elPopup4.addEventListener('click',function(){
-    if(event.target.nodeName =='A'){
-        elPopup4.classList.remove('open4');}
-})
-
-//pop-5
-   //열기
-   btnPopup5.addEventListener('click',function(){
-    elPopup5.classList.add('open5');
-})
-
-   //닫기
-elPopup5.addEventListener('click',function(){
-    if(event.target.nodeName =='A'){
-        elPopup5.classList.remove('open5');}
-})
-
-//pop-6
-   //열기
-   btnPopup6.addEventListener('click',function(){
-    elPopup6.classList.add('open6');
-})
-
-   //닫기
-elPopup6.addEventListener('click',function(){
-    if(event.target.nodeName =='A'){
-        elPopup6.classList.remove('open6');}
-})
-
-//pop-7
-   //열기
-   btnPopup7.addEventListener('click',function(){
-    elPopup7.classList.add('open7');
-})
-
-   //닫기
-elPopup7.addEventListener('click',function(){
-    if(event.target.nodeName =='A'){
-        elPopup7.classList.remove('open7');}
-})
-
-//pop-8
-   //열기
-   btnPopup8.addEventListener('click',function(){
-    elPopup8.classList.add('open8');
-})
-
-   //닫기
-elPopup8.addEventListener('click',function(){
-    if(event.target.nodeName =='A'){
-        elPopup8.classList.remove('open8');}
-})
+//팝업창 열리게
+const popUpAll = document.querySelectorAll('.popUpAll')
+const btnPopup = document.querySelectorAll('.btnPopup')
+for(let i=0;i<7;i++){
+    //pop-2
+       //열기
+        btnPopup[i].addEventListener('click',function(){
+        popUpAll[i].classList.add('open');
+    })
+    
+       //닫기
+    popUpAll[i].addEventListener('click',function(){
+        if(event.target.nodeName =='A'){
+            this.classList.remove('open');}
+    })
+    }
 
 //scroll event
-
 //스크롤 내리면 글 올라오며 등장
 window.addEventListener('scroll',function(){
     const elM = document.querySelectorAll('.elM');
