@@ -233,7 +233,8 @@ main{margin-top:7vw;}
 }
 
 .pagination li a{
-    font-size:0.8rem;
+    font-size:0.9rem;
+    font-weight:bold;
     display:block;
     background-color: #fff;
     width:33px; height:33px;
@@ -489,7 +490,8 @@ main{margin-top:7vw;}
     transform:scale(0.7);}
 
 .pagination li a{
-    font-size:0.8rem;
+    font-size:0.9rem;
+    font-weight:bold;
     padding:5px;
     display:block;
     background-color: #fff;
