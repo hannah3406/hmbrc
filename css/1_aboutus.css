@@ -41,7 +41,8 @@ main{
 }
 .sub1_1 p{
     padding:0px;
-    margin:0;
+    margin:0 auto;
+    width:60%;
 
 }
 .sub1_1 p b{
@@ -660,7 +661,7 @@ main{
 }
 .sub1_1 p{
     padding:0px;
-    margin:0;
+    margin:0 auto;
     font-size:0.9rem;
 
 }

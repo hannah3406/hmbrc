@@ -207,10 +207,12 @@ main{
 
 .language .language-1 ul li{width:100%;text-align:center;}
 
-.language .language-1 ul li:hover{
+.language .language-1 ul li a:hover{
     background-color:#000;
     border:1px solid #fff;
     color:#fff;
+    width:100%;
+    display:block;
 }
 
 .familysites{
@@ -268,10 +270,12 @@ main{
 
 .familysites .familysites-1 ul li{width:100%;text-align:center;}
 
-.familysites .familysites-1 ul li:hover{
+.familysites .familysites-1 ul li a:hover{
+    width:100%;
     background-color:#000;
     border:1px solid #fff;
     color:#fff;
+    display:block;
 }
 
 
@@ -448,7 +452,7 @@ main{
     
     .language .language-1 ul li{width:100%;text-align:center;}
     
-    .language .language-1 ul li:hover{
+    .language .language-1 ul li a:hover{
         background-color:#000;
         border:1px solid #fff;
         color:#fff;
@@ -504,7 +508,7 @@ main{
     
     .familysites .familysites-1 ul li{width:100%;text-align:center;}
     
-    .familysites .familysites-1 ul li:hover{
+    .familysites .familysites-1 ul li a:hover{
         background-color:#000;
         border:1px solid #fff;
         color:#fff;
@@ -667,7 +671,7 @@ main{
 
     .language .language-1 ul li{width:100%;text-align:center;padding:3px 0;}
 
-    .language .language-1 ul li:hover{
+    .language .language-1 ul li a:hover{
         background-color:#000;
         border:1px solid #fff;
         color:#fff;
@@ -723,7 +727,7 @@ main{
     
     .familysites .familysites-1 ul li{width:100%;text-align:center;font-size:0.8rem;padding:3px 0;}
 
-    .familysites .familysites-1 ul li:hover{
+    .familysites .familysites-1 ul li a:hover{
         background-color:#000;
         border:1px solid #fff;
         color:#fff;
@@ -1043,7 +1047,7 @@ main{
 
     .language .language-1 ul li{width:100%;text-align:center;padding:3px 0;}
 
-    .language .language-1 ul li:hover{
+    .language .language-1 ul li a:hover{
         background-color:#000;
         border:1px solid #fff;
         color:#fff;
@@ -1098,7 +1102,7 @@ main{
     
     .familysites .familysites-1 ul li{width:100%;text-align:center;font-size:0.7rem;padding:3px 0;}
 
-    .familysites .familysites-1 ul li:hover{
+    .familysites .familysites-1 ul li a:hover{
         background-color:#000;
         border:1px solid #fff;
         color:#fff;
@@ -1414,7 +1418,7 @@ main{
 
     .language .language-1 ul li{width:100%;text-align:center;padding:3px 0;}
 
-    .language .language-1 ul li:hover{
+    .language .language-1 ul li a:hover{
         background-color:#000;
         border:1px solid #fff;
         color:#fff;
@@ -1469,7 +1473,7 @@ main{
     
     .familysites .familysites-1 ul li{width:100%;text-align:center;font-size:0.7rem;padding:3px 0;}
 
-    .familysites .familysites-1 ul li:hover{
+    .familysites .familysites-1 ul li a:hover{
         background-color:#000;
         border:1px solid #fff;
         color:#fff;
@@ -1816,7 +1820,7 @@ main{
 
     .language .language-1 ul li{width:100%;text-align:center;padding:3px 0;}
 
-    .language .language-1 ul li:hover{
+    .language .language-1 ul li a:hover{
         background-color:#000;
         border:1px solid #fff;
         color:#fff;
@@ -1871,7 +1875,7 @@ main{
     
     .familysites .familysites-1 ul li{width:100%;text-align:center;font-size:0.8rem;padding:3px 0;}
 
-    .familysites .familysites-1 ul li:hover{
+    .familysites .familysites-1 ul li a:hover{
         background-color:#000;
         border:1px solid #fff;
         color:#fff;

@@ -1,7 +1,7 @@
 //inc.html
 $(function(){
-	$('header').load('inc.html header > .head',head);
-	$('footer').load('inc.html footer > .footer',footer);
+	$('header').load('en_inc.html header > .head',head);
+	$('footer').load('en_inc.html footer > .footer',footer);
 });
 
 // toggle
@@ -51,8 +51,5 @@ const elFm = document.querySelector('.familysites-1 ul');
 
 selFm.addEventListener('click',function(){
 	elFm.classList.toggle('active');
-	
 });
-
 }
-
