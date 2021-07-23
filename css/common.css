@@ -1864,7 +1864,8 @@ main{
         
         position:absolute;
         bottom:101%;
-        left:0;    
+        left:0;   
+        display:none; 
     }
     
     
