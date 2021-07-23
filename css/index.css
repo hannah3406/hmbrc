@@ -19,11 +19,17 @@ main{margin-top:6vw;}
     height:100%;
     margin:0 auto;
     position:relative; 
-   
 }
+@keyframes a3{
+    0%{transform: scale(1);}
+    50%{transform:scale(1.02);}
+    100%{transform:scale(1);}
+}
+
 .m-1 figure .img-1{
     width:100%;
     height:100%;
+    animation:a3 6s infinite;
 
 }
 .m-1 figure figcaption{
