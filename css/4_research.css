@@ -54,15 +54,15 @@ main{margin-top:7vw;}
 .sub4_2 li:nth-child(2){
     background-color:#f6f7f9;
 }
-
-.sub4_2 .txt4_1{
+.sub4_2 .txt4_1:nth-of-type(1){opacity: 1;}
+.sub4_2 .txt4_1.elM{
     width:80%;
     margin:0 auto;
     text-align:center;
     transition:1.5s;
     opacity: 0;
 }
-.sub4_2 .txt4_1.active{opacity: 1;}
+.sub4_2 .txt4_1.elM.active{opacity: 1;}
 
 .txt4_1 h2{
     font-size:1.25rem;
