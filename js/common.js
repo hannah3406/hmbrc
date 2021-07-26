@@ -38,13 +38,10 @@ window.addEventListener('scroll',function(){
 function footer(){
 	const selLag = document.querySelector('.language-1');
 	const elLag = document.querySelector('.language-1 ul');
+	const elDiv = document.querySelector('.footer')
 	selLag.addEventListener('click',function(){
-	
 		elLag.classList.toggle('active');
-
 	});
-
-
 
 //footer Family Sites버튼
 const selFm = document.querySelector('.familysites-1');
