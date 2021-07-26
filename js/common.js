@@ -39,6 +39,7 @@ function footer(){
 	const selLag = document.querySelector('.language-1');
 	const elLag = document.querySelector('.language-1 ul');
 	selLag.addEventListener('click',function(){
+	
 		elLag.classList.toggle('active');
 
 	});
