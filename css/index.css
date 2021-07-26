@@ -179,7 +179,7 @@ main{margin-top:6vw;}
     position:relative;
     overflow: hidden;
     border-radius: 30px;}
-
+.m-2 ul li figure{width:100%;}
 .m-2 ul li img{
     width:100%;
     /* height:420px; */
@@ -296,6 +296,7 @@ main{margin-top:6vw;}
     overflow: hidden;
     border-radius: 30px;
 }
+.m-3 ul .m-3_li figure{width:100%;}
 .m-3 ul .m-3_li img{width:100%; transition:2s;}
 .m-3 ul .m-3_li article{
     position:absolute;
