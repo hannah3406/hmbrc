@@ -85,26 +85,22 @@ fetch('js/data.json')
     //화살표 누르면 이미지가 옆으로 이동하게 만들기
     const elBtnGo = document.querySelectorAll('.ar3-1 a');
     const elImage = document.querySelector('.sub3_41 ul li');
-    console.log(elImage)
     let s = 0;
 
     for(let i=0;i<elBtnGo.length;i++){
-    elBtnGo[i].addEventListener('click',function(){
-        if(i==1){
-            if(s>-6){s--;}
-        }else{
-            if(s<0){s++;}
-        }
-        let x1 = (elImage.offsetWidth + 20) * s;
-        elUl.style = `transform:translateX(${x1}px)`;
-    });
-    };
+        elBtnGo[i].addEventListener('click',function(){
+            if(i==1){
+                if(s>-6){s--;}
+            }else{
+                if(s<0){s++;}
+            }
+            let x1 = (elImage.offsetWidth + 20) * s;
+            elUl.style = `transform:translateX(${x1}px)`;
+            });
+        };
+    }
 
 
-
-    
-
-}
 
 
 //matchMedia

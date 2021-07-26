@@ -123,60 +123,37 @@
 /* 좌우버튼 */
 .slick-arrow{
     position:absolute;
-    top:0%;
-    left:50%;
-    transform:translateY(-50%);
-    width:50px;
-    height:50px;
-    border-radius: 50px;
+    bottom:10%;
+    width:70px;
+    height:70px;
+    border-radius: 50%;
     font-size:0;
-    transform:scale(0.6);
+    transition:1s;
+    transform:scale(0.7);
+    z-index:90;
+    opacity: 1;
 }
 .slick-prev{
-    left:48%;
-    transform:translateX(-48%) scale(0.6);
+    left:46%; 
+    transform:translateX(-50%) scale(0.6);
+    z-index:90;
     background:url('../img/btn-prev-8.png') no-repeat center center;
-    z-index: 90;
 }
 
 .slick-next{
-    right:20%;
+    right:42%;
+    transform:translateX(-50%) scale(0.6);
+    z-index:90;
     background:url('../img/btn-top1.png') no-repeat center center;
-    z-index: 90;
+
 }
 .slick-arrow:hover{
     opacity: 1;
 }
 
-
-
-
-
-/* 인디게이터 ul li button */
-.slick-dots{
-    position:absolute; 
-    left:50%; bottom:10%;
-    z-index:2;
-    transform: translateX(-50%);
-    list-style: none;
-    margin:0;padding:0;
-}
-.slick-dots li{display:inline-block}
-.slick-dots li button{
-    width:10px; height:10px;
-    border-radius: 10px;
-    font-size:0;
-    padding:0; border:0;
-    margin:0 5px;
-    background-color:rgba(255,255,255,0.6);
-}   /* 원모양 */
-.slick-dots li.slick-active button{
-    background-color: #fff;
-}
-
 /* 슬라이드(이미지, 좌우버튼, 인디게이터) */
 .slider{
-    width:100%; height:100%;
+    width:100%; height:400px;
     position:relative;
     margin:0; padding:0;
 }
@@ -184,6 +161,14 @@
     width:100%; height:100%;
     /* display:none; */
 }
+.slick-list figure{width:260px; height:260px; border:1px solid #2f3972;}
 .slick-list img{
-    width:100%; height:100%; }
+    width:100%; height:220px; box-sizing: border-box; vertical-align: top;}
+figure figcaption{
+    color:#2f3972;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    width:100%;
 
+}
