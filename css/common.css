@@ -1149,33 +1149,36 @@ main{
     .head > nav{width:10%;height:100%; position:relative;}
     .head > nav> .menu_bar{margin:0; font-size:0.9rem; font-weight:normal;display:none;}
 
-    .head > .menu_box{   
-        position:fixed;
-        right:-100%; top:0;
-        width:80%; height:100%;
-        background-color:#fff;
-        transition:.5s;
-    }
-    .head > .menu_box.active1{
-        transform:translateX(-100%);
-        transition:.5s;
-    }
-    .head > .menu_box .h-1{
-        margin-top:15%;
-        width:100%;
-        display:flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: left;
-    }
-    
-    .h-1 li{
-        width:100%;
-        padding:4% 15%;
-        color:black;
-        border-bottom:1px solid #777;
-        font-size: 1rem;
-    }
+        /* .menu_bg{display:none;} */
+        .menu_box{   
+            position:fixed;
+            right:-100%; top:0;
+            width:80%; height:100%;
+            background-color:#fff;
+            transition:.5s;
+        }
+        .menu_box.active1{
+            transform:translateX(-100%);
+            transition:.5s;
+        }
+        .menu_box .h-1{
+            margin-top:15%;
+            width:100%;
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: left;
+        }
+        
+        .h-1 li{
+            width:100%;
+            padding:4% 15%;
+            color:black;
+            border-bottom:1px solid #777;
+            font-size: 1rem;
+            z-index:98;
+        }
+        .menu_bg.active{opacity:1;transition:.5s;}
 
 
     .head >.menu-trigger,
